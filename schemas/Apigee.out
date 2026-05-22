@@ -1,0 +1,154 @@
+Apigee.APIModel.apiKey
+Apigee.APIModel.apiName
+Apigee.APIModel.bodyDoc
+Apigee.APIModel.bodyParameters
+Apigee.APIModel.bodySample
+Apigee.APIModel.exampleJSONPrint
+Apigee.APIModel.expandedSchema
+Apigee.APIModel.hasRawBody
+Apigee.APIModel.location
+Apigee.APIModel.methodId
+Apigee.APIModel.methodType
+Apigee.APIModel.model 
+	Apigee.APIModel.model = {
+	"modifiedTime":1544880613902,
+	"apiName":"instruments",
+	"resourceId":"bcc18f44-3e47-4f0d-9175-d6e667dd1eb0",
+	"revisionNumber":4,
+	"displayName":"Search Instruments",
+	"methods":[],
+	"description":"<p>Search or retrieve instrument data, including fundamental data.<\/p>\n",
+	"changeLog":null,
+	"isActive":null,
+	"body":{
+	  "schema":null,
+	  "attachments":[],
+	  "doc":null,
+	  "parameters":[],
+	  "contentType":"application\/json",
+	  "sample":null,
+	  "accept":"application\/json,*\/*"
+	},
+	"defaultMethodTemplate":null,
+	"parameterGroups":[],
+	"path":"\/instruments",
+	"security":["{\"oauthsecurity\":{\"type\":\"OAUTH2\",\"grantType\":\"AUTHORIZATION_CODE\"}}"],
+	"isLatest":null,
+	"revisionSchema":null,
+	"createdTime":1544880556822,
+	"modifiedBy":null,
+	"revisions":null,
+	"id":"a2fba986-4d47-48f7-99ba-1744075a3e74",
+	"latestRevisionNumber":null,
+	"key":"a2fba986-4d47-48f7-99ba-1744075a3e74",
+	"apiId":"3bef5d63-73c9-40ae-8ca1-8ebbba9a4fb3",
+	"organizationName":"RetailOrg",
+	"releaseVersion":null,
+	"verb":"GET",
+	"resources":[],
+	"resourceSchema":null,
+	"resourceName":"\/instruments",
+	"activeRevisionInstance":null,
+	"samples":null,
+	"tags":["Instruments"],
+	"baseUrl":"https:\/\/api.tdameritrade.com\/v1",
+	"apiRevisionId":"83f2a1f8-3561-4f35-98d3-1538d0daa649",
+	"createdBy":null,
+	"response":{
+	  "schema":{"dataType":"{\n  \"type\" : \"array\"\n}","doc":null},]
+	  "doc":null,
+	  "parameters":[],
+	  "sample":null,
+	  "contentType":null,
+	  "errors":[
+	    {"code":"400","description":"An error message indicating the caller must pass a non null value in the parameter.","httpStatusCode":null},
+	    {"code":"401","description":"Unauthorized","httpStatusCode":null},
+	    {"code":"403","description":"Forbidden","httpStatusCode":null},
+	    {"code":"404","description":"An error message indicating the instrument for the symbol\/cusip was not found.","httpStatusCode":null},
+	    {"code":"406","description":"An error message indicating an issue in the symbol regex, or number of symbols searched is over the maximum.","httpStatusCode":null}
+	  ]
+	},
+	"schemas":[],
+	"name":"Search Instruments",
+	"activeRevisionNumber":null,
+	"defaultIndexTemplate":null,
+	"parameters":[
+	  {
+	    "schema":null,
+	    "allowMultiple":false,
+	    "defaultValue":null,
+	    "dataType":"string",
+	    "scope":"method",
+	    "name":"Authorization",
+	    "options":null,
+	    "description":"Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;<\/code>.",
+	    "type":"header",
+	    "items":null,
+	    "required":false
+	  },
+	  {
+	    "schema":null,
+	    "allowMultiple":false,
+	    "defaultValue":null,
+	    "dataType":"string",
+	    "scope":"method",
+	    "name":"apikey",
+	    "options":null,
+	    "description":"Pass your OAuth User ID to make an unauthenticated request for delayed data.",
+	    "type":"query",
+	    "items":null,
+	    "required":false
+	  },
+	  {
+	    "schema":null,
+	    "allowMultiple":false,
+	    "defaultValue":null,
+	    "dataType":"string",
+	    "scope":"method",
+	    "name":"symbol",
+	    "options":null,
+	    "description":"Value to pass to the search. See <b>projection<\/b> description for more information.",
+	    "type":"query",
+	    "items":null,
+	    "required":true
+	  },
+	  {
+	    "schema":null,
+	    "allowMultiple":false,
+	    "defaultValue":"symbol-search",
+	    "dataType":"string",
+	    "scope":"method",
+	    "name":"projection",
+	    "options":null,
+	    "description":"'The type of request:<br><br><code>symbol-search<\/code>: Retrieve instrument data of a specific symbol or cusip<br><br><code>symbol-regex<\/code>: Retrieve instrument data for all symbols matching regex. Example: <code>symbol=XYZ.*<\/code> will return all symbols beginning with XYZ<br><br><code>desc-search<\/code>: Retrieve instrument data for instruments whose description contains the word supplied. Example: <code>symbol=FakeCompany<\/code> will return all instruments with FakeCompany in the description.<br><br><code>desc-regex<\/code>: Search description with full regex support. Example: <code>symbol=XYZ.[A-C]<\/code> returns all instruments whose descriptions contain a word beginning with XYZ followed by a character A through C.<br><br><code>fundamental<\/code>: Returns fundamental data for a single instrument specified by exact symbol.'",
+	    "type":"query",
+	    "items":null,
+	    "required":true
+	  }
+	],
+	"apiSchema":{
+	  "inlineSchema":null,
+	  "docUrl":null,
+	  "doc":null,
+	  "schemaNames":[],
+	  "expandedSchema":"{\"Bond\":{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"bondPrice\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"cusip\" : {\n      \"type\" : \"string\"\n    },\n    \"symbol\" : {\n      \"type\" : \"string\"\n    },\n    \"description\" : {\n      \"type\" : \"string\"\n    },\n    \"exchange\" : {\n      \"type\" : \"string\"\n    },\n    \"assetType\" : {\n      \"type\" : \"string\",\n      \"enum\" : [ \"BOND\" ]\n    }\n  }\n},\"FundamentalData\":{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"symbol\" : {\n      \"type\" : \"string\"\n    },\n    \"high52\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"low52\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"dividendAmount\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"dividendYield\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"dividendDate\" : {\n      \"type\" : \"string\"\n    },\n    \"peRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"pegRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"pbRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"prRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"pcfRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"grossMarginTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"grossMarginMRQ\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"netProfitMarginTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"netProfitMarginMRQ\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"operatingMarginTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"operatingMarginMRQ\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"returnOnEquity\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"returnOnAssets\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"returnOnInvestment\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"quickRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"currentRatio\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"interestCoverage\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"totalDebtToCapital\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"ltDebtToEquity\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"totalDebtToEquity\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"epsTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"epsChangePercentTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"epsChangeYear\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"epsChange\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"revChangeYear\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"revChangeTTM\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"revChangeIn\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"sharesOutstanding\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"marketCapFloat\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"marketCap\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"bookValuePerShare\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"shortIntToFloat\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"shortIntDayToCover\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"divGrowthRate3Year\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"dividendPayAmount\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"dividendPayDate\" : {\n      \"type\" : \"string\"\n    },\n    \"beta\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"vol1DayAvg\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"vol10DayAvg\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    },\n    \"vol3MonthAvg\" : {\n      \"type\" : \"number\",\n      \"format\" : \"double\"\n    }\n  }\n},\"Fundamental\":{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"cusip\" : {\n      \"type\" : \"string\"\n    },\n    \"symbol\" : {\n      \"type\" : \"string\"\n    },\n    \"description\" : {\n      \"type\" : \"string\"\n    },\n    \"exchange\" : {\n      \"type\" : \"string\"\n    },\n    \"assetType\" : {\n      \"type\" : \"string\",\n      \"enum\" : [ \"EQUITY\", \"ETF\", \"MUTUAL_FUND\", \"UNKNOWN\" ]\n    },\n    \"fundamental\" : {\n      \"$ref\" : \"#\/definitions\/FundamentalData\"\n    }\n  }\n},\"Instrument\":{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"cusip\" : {\n      \"type\" : \"string\"\n    },\n    \"symbol\" : {\n      \"type\" : \"string\"\n    },\n    \"description\" : {\n      \"type\" : \"string\"\n    },\n    \"exchange\" : {\n      \"type\" : \"string\"\n    },\n    \"assetType\" : {\n      \"type\" : \"string\",\n      \"enum\" : [ \"EQUITY\", \"ETF\", \"FOREX\", \"FUTURE\", \"FUTURE_OPTION\", \"INDEX\", \"INDICATOR\", \"MUTUAL_FUND\", \"OPTION\", \"UNKNOWN\" ]\n    }\n  }\n}}",
+	  "type":"json",
+	  "schemaUrl":null
+	},
+	"customAttributes":[
+	  {"name":"SWAGGER_PRODUCES",
+	    "value":"[ \"application\/json\", \"*\/*\" ]",
+	    "attributeGroupName":null
+	  }]
+	};
+
+Apigee.APIModel.organizationName
+Apigee.APIModel.originalExpandedSchema
+Apigee.APIModel.resourceId
+Apigee.APIModel.resourceName
+Apigee.APIModel.resourceNameOrig
+Apigee.APIModel.revisionNumber
+Apigee.APIModel.security
+Apigee.APIModel.SwaggerModelProperty
+Apigee.APIModel.templateAuthName
+Apigee.APIModel.verb

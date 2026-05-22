@@ -1,0 +1,2482 @@
+https://secure.tdameritrade.com
+
+fetch("https://auth.tdameritrade.com/oauth?client_id=MOBI%40AMER.OAUTHAP&response_type=code&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "_csrf=ebaadecc-1500-4569-9e07-b155f4229ad1&s_scope=PlaceTrades+AccountAccess+MoveMoney&s_response_type=code&s_client-desc=TD+Ameritrade&s_client-name=MOBI%40AMER.OAUTHAP&fp_fp2DeviceId=b245c110d52d7d4cdd486db34358c03f&fp_browser=mozilla%2F5.0+%28x11%3B+linux+x86_64%29+applewebkit%2F537.36+%28khtml%2C+like+gecko%29+chrome%2F106.0.0.0+safari%2F537.36%7C5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%7CLinux+x86_64&fp_screen=24%7C1920%7C1080%7C1040&fp_timezone=-7&fp_language=lang%3Den-US%7Csyslang%3D%7Cuserlang%3D&fp_java=0&fp_cookie=1&fp_cfp=%7B%22navigator%22%3A%7B%22properties%22%3A%7B%22vendorSub%22%3A%22%22%2C%22productSub%22%3A%2220030107%22%2C%22vendor%22%3A%22Google+Inc.%22%2C%22maxTouchPoints%22%3A%220%22%2C%22globalPrivacyControl%22%3A%22true%22%2C%22doNotTrack%22%3A%22NULL%22%2C%22pdfViewerEnabled%22%3A%22true%22%2C%22hardwareConcurrency%22%3A%223%22%2C%22cookieEnabled%22%3A%22true%22%2C%22appCodeName%22%3A%22Mozilla%22%2C%22appName%22%3A%22Netscape%22%2C%22appVersion%22%3A%225.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22platform%22%3A%22Linux+x86_64%22%2C%22product%22%3A%22Gecko%22%2C%22userAgent%22%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22language%22%3A%22en-US%22%2C%22onLine%22%3A%22true%22%2C%22webdriver%22%3A%22false%22%2C%22keyboard%22%3A%22NULL%22%2C%22deviceMemory%22%3A%220.5%22%7D%2C%22propertiesMD5%22%3A%225b8cac2b842c8930b012696725e6b1be%22%2C%22navorderMD5%22%3A%22a7ce436f0b2d19200ef9af26c1e3f23e%22%2C%22navmethods%22%3A%22getGamepads%7CjavaEnabled%7CsendBeacon%7Cvibrate%7CclearAppBadge%7CgetUserMedia%7CrequestMIDIAccess%7CrequestMediaKeySystemAccess%7CsetAppBadge%7CwebkitGetUserMedia%7CgetBattery%7CgetInstalledRelatedApps%7CregisterProtocolHandler%7CunregisterProtocolHandler%22%2C%22navmethMD5%22%3A%224770a237f4d2ecd946a8c042d75c4312%22%7D%2C%22screen%22%3A%7B%22properties%22%3A%7B%22availWidth%22%3A%221920%22%2C%22availHeight%22%3A%221040%22%2C%22width%22%3A%221920%22%2C%22height%22%3A%221080%22%2C%22colorDepth%22%3A%2224%22%2C%22pixelDepth%22%3A%2224%22%2C%22availLeft%22%3A%220%22%2C%22availTop%22%3A%2240%22%2C%22onchange%22%3A%22NULL%22%2C%22isExtended%22%3A%22true%22%7D%2C%22propertiesMD5%22%3A%229c3fdf74601d8a23d9067a10bf65b428%22%2C%22tamper%22%3Afalse%7D%2C%22timezone%22%3A%22-8%7C-7%22%2C%22canvas%22%3A%2251bae3dbc418985328bb360d0ed2d1d5%22%2C%22java%22%3Afalse%2C%22localstorage%22%3Atrue%2C%22sessionstorage%22%3Atrue%2C%22indexedDB%22%3Atrue%2C%22plugins%22%3A%7B%22names%22%3A%22OHjx4cu%7CMGDBAAgw%7COpenSource+PDF+and+PS+plug-in%7CWeb+PDF+Renderer%7Capplication%2Fpdf%7CPortable+Document+Format%22%2C%22namesMD5%22%3A%22c6b8cb32e0ba276d6290a1f663de7ead%22%7D%2C%22fonts%22%3A%222195acf3f810f21ab34a6aea83513b5c%22%2C%22mathroutines%22%3A%2211013.232920103324%7C-1.4214488238747245%22%2C%22md5%22%3A%229b32be5394f79f3b5a77daa87502af89%22%2C%22latency%22%3A183%2C%22form%22%3A%7B%22fields%22%3A%22su_username%7Csu_password%7Crememberuserid%7Cauthorize%7Creject%22%7D%2C%22clkhz%22%3Anull%7D&lang=en-us&su_username=33332560&su_password=M11se--1&authorize=Log+in&signed=47401c4f3232a13be8c1ef5f2b7655101eaed485",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-user": "?1",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://media.tdameritrade.com/media/css/tdasans_remote.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/default-client/verde/verde-components-0.1.0.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/default-client/verde/verde-global-0.1.0.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/default-client/verde/authorize_tdspec.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/default-client/verde/breakpoints.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/mobi/retailweb.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/details-shim.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/ux/c9547/default-client/Icons/logo.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/fp.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/cfpJSON.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/gfp.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/details-shim.min.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/auth.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://auth.tdameritrade.com/js/jc8315/dropdowns.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23666666' d='M12 4C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z'/%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23666666' d='M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V18c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-1.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05.02.01.03.03.04.04 1.14.83 1.93 1.94 1.93 3.41V18c0 .35-.07.69-.18 1H22c.55 0 1-.45 1-1v-1.5c0-2.33-4.67-3.5-7-3.5z'/%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none'%3E%3Cpath d='M0 0h24v24H0V0z'/%3E%3Cpath opacity='.87' d='M0 0h24v24H0V0z'/%3E%3C/g%3E%3Cpath fill='%23666666' d='M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z'/%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eround-forum%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='round-forum' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='round-forum-24px'%3E%3Cpolygon id='Path' points='0 0 24 0 24 24 0 24'%3E%3C/polygon%3E%3Cpath d='M20,6 L19,6 L19,14 C19,14.55 18.55,15 18,15 L6,15 L6,16 C6,17.1 6.9,18 8,18 L18,18 L22,22 L22,8 C22,6.9 21.1,6 20,6 Z M17,11 L17,4 C17,2.9 16.1,2 15,2 L4,2 C2.9,2 2,2.9 2,4 L2,17 L6,13 L15,13 C16.1,13 17,12.1 17,11 Z' id='Shape' fill='%23666666' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;charset=utf8,%3C?xml%20version=%271.0%27%20encoding=%27UTF-8%27?%3E%3Csvg%20width=%2724px%27%20height=%2724px%27%20viewBox=%270%200%2024%2024%27%20version=%271.1%27%20xmlns=%27http://www.w3.org/2000/svg%27%20xmlns:xlink=%27http://www.w3.org/1999/xlink%27%3E%3Ctitle%3EArtboard%3C/title%3E%3Cg%20id=%27Artboard%27%20stroke=%27none%27%20stroke-width=%271%27%20fill=%27none%27%20fill-rule=%27evenodd%27%3E%3Cg%20id=%27settings-icon%27%20fill=%27%23666666%27%3E%3Cpath%20d=%27M19.6407061,12.98%20C19.6818283,12.66%2019.7126699,12.34%2019.7126699,12%20C19.7126699,11.66%2019.6818283,11.34%2019.6407061,11.02%20L21.8098984,9.37%20C22.0052286,9.22%2022.0566312,8.95%2021.9332648,8.73%20L19.8771584,5.27%20C19.753792,5.05%2019.4762176,4.97%2019.2500459,5.05%20L16.6901934,6.05%20C16.1556057,5.65%2015.5798959,5.32%2014.9527835,5.07%20L14.5621232,2.42%20C14.5312816,2.18%2014.3153905,2%2014.0583772,2%20L9.94616426,2%20C9.68915096,2%209.47325978,2.18%209.44241818,2.42%20L9.05175796,5.07%20C8.42464549,5.32%207.84893569,5.66%207.31434801,6.05%20L4.75449549,5.05%20C4.51804325,4.96%204.25074941,5.05%204.12738302,5.27%20L2.07127658,8.73%20C1.93762966,8.95%201.99931285,9.22%202.19464297,9.37%20L4.36383526,11.02%20C4.32271314,11.34%204.29187154,11.67%204.29187154,12%20C4.29187154,12.33%204.32271314,12.66%204.36383526,12.98%20L2.19464297,14.63%20C1.99931285,14.78%201.94791019,15.05%202.07127658,15.27%20L4.12738302,18.73%20C4.25074941,18.95%204.52832378,19.03%204.75449549,18.95%20L7.31434801,17.95%20C7.84893569,18.35%208.42464549,18.68%209.05175796,18.93%20L9.44241818,21.58%20C9.47325978,21.82%209.68915096,22%209.94616426,22%20L14.0583772,22%20C14.3153905,22%2014.5312816,21.82%2014.5621232,21.58%20L14.9527835,18.93%20C15.5798959,18.68%2016.1556057,18.34%2016.6901934,17.95%20L19.2500459,18.95%20C19.4864982,19.04%2019.753792,18.95%2019.8771584,18.73%20L21.9332648,15.27%20C22.0566312,15.05%2022.0052286,14.78%2021.8098984,14.63%20L19.6407061,12.98%20Z%20M12.0022707,15.5%20C10.018128,15.5%208.40408443,13.93%208.40408443,12%20C8.40408443,10.07%2010.018128,8.5%2012.0022707,8.5%20C13.9864134,8.5%2015.600457,10.07%2015.600457,12%20C15.600457,13.93%2013.9864134,15.5%2012.0022707,15.5%20Z%27%3E%3C/path%3E%3C/g%3E%3Crect%20id=%27Rectangle%27%20x=%270%27%20y=%270%27%20width=%2724%27%20height=%2724%27%3E%3C/rect%3E%3C/g%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Medium_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Regular_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='icons/utility/arrow-drop-down' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M8.33031421,11.8617311 L11.2159116,14.681546 C11.6504224,15.1061513 12.3523245,15.1061513 12.7868353,14.681546 L15.6724327,11.8617311 C16.3743348,11.1758302 15.8729762,10 14.8814002,10 L9.1102054,10 C8.11862946,10 7.62841214,11.1758302 8.33031421,11.8617311 Z' id='arrow-drop-down-icon' fill='%23666666'%3E%3C/path%3E%3C/g%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://auth.tdameritrade.com/js/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://media.tdameritrade.com/media/css/tdasans_remote.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/tdax.bootstrap.styles.css?3b3d52b3718eed221949", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/client-config.js?v=9cb8e52f1b30d1ccf1d3", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/bundle-9cb8e52f1b30d1ccf1d3.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/5.bundle-a1841957939424a8f08d.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/7.bundle-7808ad04be3c047b76cf.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/6.bundle-95eff9ced47aea42eb63.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/48.bundle-3f4d8f38bfb51741745a.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/43.bundle-27ce61d49559a8b61143.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/49.bundle-d0652ff2131c1f1883f0.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/61.bundle-0dc385c557b605e6711e.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/40.bundle-fb86a91ac50c8a3a1674.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/64.bundle-9686131f821517824d59.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/67.bundle-228a6c5fc09e3102c427.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/63.bundle-b546c145df29889b4494.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/66.bundle-7b89d56564ce192067d5.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/42.bundle-518edb06115fe1670bc6.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/73.bundle-fa07ed7851c9bc061682.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/57.bundle-bab5e7f44a62555c3bf5.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/44.bundle-9f3e0e8c5ac135b337c6.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/62.bundle-c4f00b8467dd81813528.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/45.bundle-8479cfc1dbb116592d89.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/50.bundle-d2ab8ebf20fe430f17b7.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/51.bundle-24aecfaa2a4071572d63.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/52.bundle-bae65454b2ce3c5c0aff.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/53.bundle-923b9a5bb4150ae297ab.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/54.bundle-2d98f8320cf15f68f434.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/55.bundle-33251481bde654eaa679.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/56.bundle-244027d438e586391b74.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/58.bundle-a31edfb227cbe1692293.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/60.bundle-aece790d0937955476d1.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/65.bundle-7a3c56de7623b3f30dcf.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/68.bundle-cbac1998c3bf3df7bc62.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/69.bundle-c5c0f6a41ee0fcb1e01e.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/71.bundle-54a1bc4619f2d666aaea.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/74.bundle-e30393619ebb6be8aa7f.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/39.bundle-589f7b74ee42ef6916b9.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://tags.tiqcdn.com/utag/tdameritrade/tdax/prod/utag.sync.js", {
+  "headers": {
+    "intervention": "<https://www.chromestatus.com/feature/5718547946799104>; level=\"warning\""
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://tags.tiqcdn.com/utag/tdameritrade/tdax/prod/utag.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/config", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/0.bundle-6d3238284cacbcec522e.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "purpose": "prefetch",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrerPolicy": "no-referrer",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/1.bundle-a39b93b0844982918370.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "purpose": "prefetch",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrerPolicy": "no-referrer",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/32.bundle-8ff1347738cb13325b05.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "purpose": "prefetch",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrerPolicy": "no-referrer",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/public/31.bundle-62b28a467f43b9edfe55.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "purpose": "prefetch",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrerPolicy": "no-referrer",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iMTEwcHgiIGhlaWdodD0iMjJweCIgdmlld0JveD0iMCAwIDExMCAyMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bG9nbyAvIGNvbG9yQDJ4PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9InRvcC0vLXBob25lLS8tY29tcGFjdC0vLW1lbnUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNi4wMDAwMDAsIC0xMy4wMDAwMDApIj4NCiAgICAgICAgPGcgaWQ9ImxvZ28tLy1jb2xvciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYuMDAwMDAwLCAxMy4wMDAwMDApIj4NCiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTEiIGZpbGw9IiMwMEI2MjQiIHBvaW50cz0iMCAyMiAyNS41MzU3MTQzIDIyIDI1LjUzNTcxNDMgMCAwIDAiPjwvcG9seWdvbj4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xNi40ODI3ODUzLDE3LjI1MzA2MDcgQzE5LjY5NzAyMjYsMTcuMjUzMDYwNyAyMi4wNzcyNDg2LDE2LjU2MDk4MDIgMjIuMDc3MjQ4NiwxMC45MDg0Nzg2IEMyMi4wNzcyNDg2LDYuNjE1MDA0OTUgMjAuNDgyNTU5Myw0LjkxMDI0MzM0IDE3LjEzMTU5ODksNC45MTAyNDMzNCBMMy4yMzkyODI0OSw0LjkxMDI0MzM0IEwzLjIzOTI4MjQ5LDYuNjY5NTYyMjMgTDcuMzIxMDkwNCw2LjY2OTU2MjIzIEw3LjMyMTA5MDQsMTcuMjUzMDYwNyBMMTAuMTAyNzg1MywxNy4yNTMwNjA3IEwxMC4xMDI3ODUzLDYuNjY5NTYyMjMgTDE2LjI2NTg5MjcsNi42Njk1NjIyMyBDMTguMTU3MDIyNiw2LjY2OTU2MjIzIDE5LjA1MDA3MzQsNy42Mjk1MjUwOCAxOS4wNTAwNzM0LDEwLjkzNDIyNDggQzE5LjA1MDA3MzQsMTQuMjE1MDE3MyAxOC4yNjc2NDQxLDE1LjQ5NDM1NDggMTYuNDAwNzUxNCwxNS40OTQzNTQ4IEwxMy42OTc5ODMxLDE1LjQ5NDM1NDggTDEzLjY5Nzk4MzEsNy4zMDg5MjQ0NiBMMTAuODg4MzIyLDcuMzA4OTI0NDYgTDEwLjg4ODMyMiwxNy4yNTMwNjA3IEwxNi40ODI3ODUzLDE3LjI1MzA2MDcgTDE2LjQ4Mjc4NTMsMTcuMjUzMDYwNyBaIiBpZD0iRmlsbC0yIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+DQogICAgICAgICAgICA8cGF0aCBkPSJNOTcuNTAxODI0OSw4Ljg3NDk2MzQ3IEM5Ni44MzQ5ODg3LDguODc0OTYzNDcgOTYuNzIxODgxNCw5LjU0NzQyNzg2IDk2LjcyMTg4MTQsMTAuMjIwNTA1MyBDOTYuNzIxODgxNCwxMC45MDU4NDI3IDk2LjgzNDk4ODcsMTEuNjI5MTg2NCA5Ny41MjczMDUxLDExLjYyOTE4NjQgQzk4LjIwNjU3MDYsMTEuNjI5MTg2NCA5OC4zMDc4NzAxLDEwLjkwNTg0MjcgOTguMzA3ODcwMSwxMC4yOTUyOTE2IEM5OC4zMDc4NzAxLDkuNTQ3NDI3ODYgOTguMjA2NTcwNiw4Ljg3NDk2MzQ3IDk3LjUwMTgyNDksOC44NzQ5NjM0NyBMOTcuNTAxODI0OSw4Ljg3NDk2MzQ3IFogTTk4LjQ0NTgzNjIsMTMuNTcyNDA2MiBMOTguNDQ1ODM2MiwxMi4zODk5MjMyIEw5OC40MjA5Nzc0LDEyLjM4OTkyMzIgQzk3Ljk4MDk3NzQsMTMuMzYwOTIwMSA5Ny4zMzgzNzg1LDEzLjcyMjU5MiA5Ni4zMDY3NDAxLDEzLjcyMjU5MiBDOTQuMjA1NTUzNywxMy43MjI1OTIgOTMuNDI1NjEwMiwxMi4xMDI0MjQ4IDkzLjQyNTYxMDIsMTAuMjIwNTA1MyBDOTMuNDI1NjEwMiw4LjQ2MzAyNTM5IDk0LjI0Mjg0MTgsNi45MzA1MTc2NSA5Ni4yMTg0OTE1LDYuOTMwNTE3NjUgQzk3LjA2MTIwMzQsNi45MzA1MTc2NSA5Ny43MDM4MDIzLDcuMjE2NzkwMDkgOTguMTk0NzYyNyw3LjkxNTAwMDYyIEw5OC4yMTksNy45MTUwMDA2MiBMOTguMjE5LDQuMjI1OTQ3OTkgTDEwMS4zOTAzNTYsNC4yMjU5NDc5OSBMMTAxLjM5MDM1NiwxMy41NzI0MDYyIEw5OC40NDU4MzYyLDEzLjU3MjQwNjIgWiIgaWQ9IkZpbGwtNCIgZmlsbD0iIzExM0IyQSI+PC9wYXRoPg0KICAgICAgICAgICAgPHBhdGggZD0iTTM0LjQ3OTk2NjEsOS42MDQwMDgwNSBMMzYuNDMwNzU3MSw5LjYwNDAwODA1IEwzNS40NzQzMTY0LDYuNzYzMzUxNyBMMzUuNDQ5NDU3Niw2Ljc2MzM1MTcgTDM0LjQ3OTk2NjEsOS42MDQwMDgwNSBaIE0zMy4xOTc4NzU3LDQuOTAxMDQ4MyBMMzcuODQwODcwMSw0LjkwMTA0ODMgTDQwLjk3MzA3MzQsMTMuNTYyNzgyIEwzNy40Mzc1MzY3LDEzLjU2Mjc4MiBMMzYuODU5NTcwNiwxMS42OTAwNTc2IEwzNC4wMTM4NjQ0LDExLjY5MDA1NzYgTDMzLjQ3MzE4NjQsMTMuNTYyNzgyIEwzMC4xMTYwMTEzLDEzLjU2Mjc4MiBMMzMuMTk3ODc1Nyw0LjkwMTA0ODMgWiIgaWQ9IkZpbGwtNiIgZmlsbD0iIzExM0IyQSI+PC9wYXRoPg0KICAgICAgICAgICAgPHBhdGggZD0iTTQxLjQ3Njc3NCw3LjA5NjY0MTQ5IEw0NC40Njk3Njg0LDcuMDk2NjQxNDkgTDQ0LjQ2OTc2ODQsOC4yMTQxNDYxMyBMNDQuNDk2NDkxNSw4LjIxNDE0NjEzIEM0NC44NzMxMDE3LDcuMzEwNTc5NTcgNDUuNzM5NDI5NCw2Ljk0OTUyMDc0IDQ2LjczMzE1ODIsNi45NDk1MjA3NCBDNDcuNjE1NjQ0MSw2Ljk0OTUyMDc0IDQ4LjUzMzU1MzcsNy4yODM2MDc0MyA0OC43ODU4NzAxLDguMDU0NzY1MzMgTDQ4LjgxMTM1MDMsOC4wNTQ3NjUzMyBDNDkuMDIzODkyNyw3LjMxMDU3OTU3IDUwLjEzMDcyODgsNi45NDk1MjA3NCA1MC45MTE5MTUzLDYuOTQ5NTIwNzQgQzUzLjIyNTAyMjYsNi45NDk1MjA3NCA1My4yMjUwMjI2LDguNDI2ODU4MiA1My4yMjUwMjI2LDkuNjkxNDgzNTkgTDUzLjIyNTAyMjYsMTMuNTYyNTk4MSBMNTAuMDU2MTUyNSwxMy41NjI1OTgxIEw1MC4wNTYxNTI1LDkuODM5ODMwMzQgQzUwLjA1NjE1MjUsOS40Njc3Mzc0NiA1MC4wNTYxNTI1LDguOTU4OTQ0ODkgNDkuNDg5OTk0NCw4Ljk1ODk0NDg5IEM0OC45MzUwMjI2LDguOTU4OTQ0ODkgNDguOTM1MDIyNiw5LjQ2NzczNzQ2IDQ4LjkzNTAyMjYsOS44Mzk4MzAzNCBMNDguOTM1MDIyNiwxMy41NjI1OTgxIEw0NS43NjYxNTI1LDEzLjU2MjU5ODEgTDQ1Ljc2NjE1MjUsOS44Mzk4MzAzNCBDNDUuNzY2MTUyNSw5LjQ2NzczNzQ2IDQ1Ljc2NjE1MjUsOC45NTg5NDQ4OSA0NS4yMTExODA4LDguOTU4OTQ0ODkgQzQ0LjY0Njg4Nyw4Ljk1ODk0NDg5IDQ0LjY0Njg4Nyw5LjQ2NzczNzQ2IDQ0LjY0Njg4Nyw5LjgzOTgzMDM0IEw0NC42NDY4ODcsMTMuNTYyNTk4MSBMNDEuNDc2Nzc0LDEzLjU2MjU5ODEgTDQxLjQ3Njc3NCw3LjA5NjY0MTQ5IFoiIGlkPSJGaWxsLTgiIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik01OC43MzYyMDksOS43MTYxODc2MiBDNTguNzM2MjA5LDkuMjE5NjU1MTEgNTguNjU4NTI1NCw4LjQzOTMwMjE3IDU3Ljk0MjU5MzIsOC40MzkzMDIxNyBDNTcuMjE0MjMxNiw4LjQzOTMwMjE3IDU3LjA0OTU0MjQsOS4yMDg2MjEwNSA1Ny4wODgwNzM0LDkuNzE2MTg3NjIgTDU4LjczNjIwOSw5LjcxNjE4NzYyIFogTTU3LjA5OTg4MTQsMTEuMDgwMTE5NSBDNTcuMTQ5NTk4OSwxMS44ODYyMTg2IDU3LjkxNzExMywxMi4wNzQ0MTA1IDU4Ljg0ODA3MzQsMTIuMDc0NDEwNSBDNTkuNzE3NTA4NSwxMi4wNzQ0MTA1IDYwLjQ5NjIwOSwxMS45MjYwNjM4IDYwLjk5ODk3NzQsMTEuNjY1NTM3NSBMNjAuOTk4OTc3NCwxMy4zNDA4NzQ5IEM2MC4xNTgxMjk5LDEzLjU5OTU2MjIgNTkuMTQ4ODY0NCwxMy43MTExMjg4IDU4LjA0NDUxNDEsMTMuNzExMTI4OCBDNTUuMzg4MzU1OSwxMy43MTExMjg4IDUzLjk4MDEwNzMsMTIuNDQ3MTE2NCA1My45ODAxMDczLDEwLjIxMjcyMDEgQzUzLjk4MDEwNzMsOC4wNDA4NTAxNSA1NS4zODgzNTU5LDYuOTUwMzE3NjUgNTguMDQ0NTE0MSw2Ljk1MDMxNzY1IEM2MC41ODUwNzkxLDYuOTUwMzE3NjUgNjEuNDc4MTI5OSw4LjUxMzQ3NTU0IDYxLjQ3ODEyOTksMTAuNjk1MTUzNiBMNjEuNDc4MTI5OSwxMS4wODAxMTk1IEw1Ny4wOTk4ODE0LDExLjA4MDExOTUgWiIgaWQ9IkZpbGwtMTAiIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik02NS4zMTUxNDEyLDcuMDk2NjQxNDkgTDY1LjMxNTE0MTIsOC41NjIzMzE4OSBMNjUuMzQwNjIxNSw4LjU2MjMzMTg5IEM2NS43MTc4NTMxLDcuNjQ0NjY2MjUgNjYuMzQ2MTU4Miw2Ljk0OTUyMDc0IDY3LjM0MDUwODUsNi45NDk1MjA3NCBDNjcuNTMwMDU2NSw2Ljk0OTUyMDc0IDY3LjczMDE2OTUsNi45NzM0Mjc4NiA2Ny44NTY5NDkyLDcuMDEwMjA4MDUgTDY3Ljg1Njk0OTIsOS42MDUwNTAxNSBDNjcuNzA0Njg5Myw5LjU0MzEzNjg0IDY3LjQzMTI0MjksOS41MDYzNTY2NiA2Ny4xMzkxNTI1LDkuNTA2MzU2NjYgQzY2LjI1OTE1MjUsOS41MDYzNTY2NiA2NS41MTcxMTg2LDEwLjI2MTU3NjUgNjUuNTE3MTE4NiwxMS4yMTc4NjEzIEw2NS41MTcxMTg2LDEzLjU2MjU5ODEgTDYyLjM0NjM4NDIsMTMuNTYyNTk4MSBMNjIuMzQ2Mzg0Miw3LjA5NjY0MTQ5IEw2NS4zMTUxNDEyLDcuMDk2NjQxNDkgWiIgaWQ9IkZpbGwtMTIiIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik02OC43NzczNDQ2LDEzLjU2Mjk2NTkgTDcxLjk0NzQ1NzYsMTMuNTYyOTY1OSBMNzEuOTQ3NDU3Niw3LjA5NzAwOTI5IEw2OC43NzczNDQ2LDcuMDk3MDA5MjkgTDY4Ljc3NzM0NDYsMTMuNTYyOTY1OSBaIE02OC43Nzg1ODc2LDYuNDE1MzQ5ODUgTDcxLjk0ODcwMDYsNi40MTUzNDk4NSBMNzEuOTQ4NzAwNiw0LjI1NjM1Mjk0IEw2OC43Nzg1ODc2LDQuMjU2MzUyOTQgTDY4Ljc3ODU4NzYsNi40MTUzNDk4NSBaIiBpZD0iRmlsbC0xNCIgZmlsbD0iIzExM0IyQSI+PC9wYXRoPg0KICAgICAgICAgICAgPHBhdGggZD0iTTczLjg5MzY0OTcsNy4wOTY2NDE0OSBMNzMuODkzNjQ5Nyw1LjYwODI2OTk3IEw3Ny4wNjMxNDEyLDQuNjUzMjExMTUgTDc3LjA2MzE0MTIsNy4wOTY2NDE0OSBMNzguNDk3NDkxNSw3LjA5NjY0MTQ5IEw3OC40OTc0OTE1LDguOTU4OTQ0ODkgTDc3LjA2MzE0MTIsOC45NTg5NDQ4OSBMNzcuMDYzMTQxMiwxMC43ODMyNDIxIEM3Ny4wNjMxNDEyLDExLjMzMDA0MDkgNzcuMzQwMzE2NCwxMS42MjczNDc0IDc3Ljc1NDIxNDcsMTEuNjI3MzQ3NCBDNzguMDQzODE5MiwxMS42MjczNDc0IDc4LjI2OTQxMjQsMTEuNTg4NzI4MiA3OC40OTc0OTE1LDExLjUxNTE2NzggTDc4LjQ5NzQ5MTUsMTMuMzc1NjMyMiBDNzcuODA2NDE4MSwxMy41NzQ4NTgyIDc3LjA5OTgwNzksMTMuNzEwOTQ0OSA3Ni4zMjE3Mjg4LDEzLjcxMDk0NDkgQzc0LjY4NjY0NDEsMTMuNzEwOTQ0OSA3My44OTM2NDk3LDEyLjkwNjA3MTggNzMuODkzNjQ5NywxMS4xOTM5NTQyIEw3My44OTM2NDk3LDguOTU4OTQ0ODkgTDcyLjc3MTI3NjgsOC45NTg5NDQ4OSBMNzIuNzcxMjc2OCw3LjA5NjY0MTQ5IEw3My44OTM2NDk3LDcuMDk2NjQxNDkgWiIgaWQ9IkZpbGwtMTYiIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik04Mi4zNzQ5NjA1LDcuMDk2NjQxNDkgTDgyLjM3NDk2MDUsOC41NjIzMzE4OSBMODIuMzk3MzMzMyw4LjU2MjMzMTg5IEM4Mi43NzU4MDc5LDcuNjQ0NjY2MjUgODMuNDA1OTc3NCw2Ljk0OTUyMDc0IDg0LjM5OTcwNjIsNi45NDk1MjA3NCBDODQuNTg2MTQ2OSw2Ljk0OTUyMDc0IDg0Ljc4ODEyNDMsNi45NzM0Mjc4NiA4NC45MTQyODI1LDcuMDEwMjA4MDUgTDg0LjkxNDI4MjUsOS42MDUwNTAxNSBDODQuNzY0NTA4NSw5LjU0MzEzNjg0IDg0LjQ4NzMzMzMsOS41MDYzNTY2NiA4NC4xOTcxMDczLDkuNTA2MzU2NjYgQzgzLjMxNjQ4NTksOS41MDYzNTY2NiA4Mi41NzUwNzM0LDEwLjI2MTU3NjUgODIuNTc1MDczNCwxMS4yMTc4NjEzIEw4Mi41NzUwNzM0LDEzLjU2MjU5ODEgTDc5LjQwMzcxNzUsMTMuNTYyNTk4MSBMNzkuNDAzNzE3NSw3LjA5NjY0MTQ5IEw4Mi4zNzQ5NjA1LDcuMDk2NjQxNDkgWiIgaWQ9IkZpbGwtMTciIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik04OS43OTUzNjE2LDEwLjcyMjE4NyBMODkuNDgwODk4MywxMC43MjIxODcgQzg4LjgyNTI0ODYsMTAuNzIyMTg3IDg4LjA3MDc4NTMsMTAuNzg0MTAwMyA4OC4wNzA3ODUzLDExLjQ1MzQ5OTcgQzg4LjA3MDc4NTMsMTEuOTAwMzc4OSA4OC4zMjU1ODc2LDEyLjA3NDQ3MTggODguODE1OTI2NiwxMi4wNzQ0NzE4IEM4OS40Njg0Njg5LDEyLjA3NDQ3MTggODkuNzk1MzYxNiwxMS40Nzc0MDY4IDg5Ljc5NTM2MTYsMTAuOTIwMTg3IEw4OS43OTUzNjE2LDEwLjcyMjE4NyBaIE04NS45MzQxNzUxLDcuMzIyNDcxODMgQzg2Ljg3Njk0MzUsNy4wNjA3MTk1IDg3LjQ0MzEwMTcsNi45NTAzNzg5NSA4OC42NzY3MTc1LDYuOTUwMzc4OTUgQzkwLjQ4NzA1NjUsNi45NTAzNzg5NSA5Mi42OTAxNjM4LDcuMjcyODE4NTggOTIuNjkwMTYzOCw5LjYyOTgxNTQ4IEw5Mi42OTAxNjM4LDEzLjU2NDA2OTMgTDg5Ljc0NTY0NDEsMTMuNTY0MDY5MyBMODkuNzQ1NjQ0MSwxMi42MzE2OTE2IEw4OS43MTk1NDI0LDEyLjYzMTY5MTYgQzg5LjI4MDE2MzgsMTMuMzYzMDA0MyA4OC40NzQxMTg2LDEzLjcxMTE5MDEgODcuNTgxMDY3OCwxMy43MTExOTAxIEM4Ni4zNjA1MDI4LDEzLjcxMTE5MDEgODUuMTc4NDY4OSwxMy4xNjU2MTczIDg1LjE3ODQ2ODksMTEuODEzOTQ1NSBDODUuMTc4NDY4OSw5LjgyODQyODQ4IDg2Ljk5MDA1MDgsOS40Mjk5NzY0NyA4OC41NjI5ODg3LDkuNDI5OTc2NDcgQzg5LjAwMjM2NzIsOS40Mjk5NzY0NyA4OS41MDU3NTcxLDkuNDkyNTAyNzkgODkuNzk1MzYxNiw5LjUxODI0ODkyIEM4OS43ODIzMTA3LDguNjg2NDAzNzIgODguOTE0NzQwMSw4LjU4NzA5NzIxIDg4LjEyMjk4ODcsOC41ODcwOTcyMSBDODcuMzY3MjgyNSw4LjU4NzA5NzIxIDg2LjU2MjQ4MDIsOC44MjMxMDM0MSA4NS45MzQxNzUxLDkuMTMzMjgyOTcgTDg1LjkzNDE3NTEsNy4zMjI0NzE4MyBaIiBpZD0iRmlsbC0xOCIgZmlsbD0iIzExM0IyQSI+PC9wYXRoPg0KICAgICAgICAgICAgPHBhdGggZD0iTTEwNi45MDI0MTIsOS42ODkwOTI4OCBDMTA2LjkwMjQxMiw5LjE5MTk0NzM3IDEwNi44Mjc4MzYsOC40MTAzNjg0MiAxMDYuMTA5NDE4LDguNDEwMzY4NDIgQzEwNS4zODEwNTYsOC40MTAzNjg0MiAxMDUuMjE2OTg5LDkuMTgwOTEzMzEgMTA1LjI1NDg5OCw5LjY4OTA5Mjg4IEwxMDYuOTAyNDEyLDkuNjg5MDkyODggWiBNMTA1LjI2NjA4NSwxMS4wNTI0MTE4IEMxMDUuMzE3MDQ1LDExLjg1OTEyMzggMTA2LjA4NjQyNCwxMi4wNDU0NzY4IDEwNy4wMTU1MiwxMi4wNDU0NzY4IEMxMDcuODgzNzEyLDEyLjA0NTQ3NjggMTA4LjY2MzY1NSwxMS44OTcxMyAxMDkuMTY3MDQ1LDExLjYzNzIxNjcgTDEwOS4xNjcwNDUsMTMuMzEyNTU0MiBDMTA4LjMyNDk1NSwxMy41NzA2Mjg1IDEwNy4zMTgxNzUsMTMuNjgyODA4IDEwNi4yMTEzMzksMTMuNjgyODA4IEMxMDMuNTU2NDI0LDEzLjY4MjgwOCAxMDIuMTQ3NTU0LDEyLjQyMDAyMTcgMTAyLjE0NzU1NCwxMC4xODM3ODY0IEMxMDIuMTQ3NTU0LDguMDEyNTI5NDEgMTAzLjU1NjQyNCw2LjkyMTk5NjkgMTA2LjIxMTMzOSw2LjkyMTk5NjkgQzEwOC43NTI1MjUsNi45MjE5OTY5IDEwOS42NDYxOTgsOC40ODQ1NDE4IDEwOS42NDYxOTgsMTAuNjY3NDQ1OCBMMTA5LjY0NjE5OCwxMS4wNTI0MTE4IEwxMDUuMjY2MDg1LDExLjA1MjQxMTggWiIgaWQ9IkZpbGwtMTkiIGZpbGw9IiMxMTNCMkEiPjwvcGF0aD4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/v1/oauth2/token?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "grant_type=authorization_code&code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&access_type=offline&client_id=MOBI%40AMER.OAUTHAP&code_verifier=rvVk96xlZTTKYM65sFQU5fQwS9UfinwWz8OEor8LLMEuTa9Vqvgx7tK6kDb6tW95BOn5ykqB33MGPvEaO4JjLxp4UHkXJ3zzBP82gZz02eJe5zaeNRc9c4qYhbfp2mNG",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Regular_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://tags.tiqcdn.com/utag/tdameritrade/tdax/prod/utag.6.js?utv=ut4.46.201908292150", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/assets/manifest.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "manifest",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/assets/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/assets/favicon-32x32.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/postpromotion", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "3b961a76a8e5699e",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/postpromotion", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "148f4e7847e61fa9",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/logger", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "x-b3-spanid": "fdb5a6743ad3e145",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"logs\":[{\"level\":\"info\",\"msg\":\"userPrinciples\",\"page\":\"/authCafe\",\"request\":\"https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo\",\"status\":\"200\",\"userId\":\"33332560\",\"stack\":null,\"timestamp\":\"2022-10-23T10:09:12-04:00\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\"}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/token-details", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo,surrogateIds,streamerSubscriptionKeys", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "e029e0916f9dc8ee",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo,surrogateIds,streamerSubscriptionKeys", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/logger", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "x-b3-spanid": "10c7fe0283452b56",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/authCafe",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"logs\":[{\"level\":\"info\",\"msg\":\"userPrinciples\",\"page\":\"/authCafe\",\"request\":\"https://userprincipal-w.tdameritrade.com/v4/userprincipals?fields=streamerConnectionInfo,surrogateIds,streamerSubscriptionKeys\",\"status\":\"200\",\"userId\":\"33332560\",\"stack\":null,\"timestamp\":\"2022-10-23T10:09:12-04:00\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\"}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/accounts/accountInfo", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "88afd68d35762de4",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/accounts/accountInfo", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjNjY2IiBkPSJNMTkuNjg4IDE3LjE3bC0xLjM2LTEuMzI0di01LjEyOGMwLTMuMTQ5LTEuNzMtNS43ODUtNC43NDYtNi40ODJ2LS42OThDMTMuNTgyIDIuNjg4IDEyLjg3NSAyIDEyIDJjLS44NzUgMC0xLjU4Mi42ODctMS41ODIgMS41Mzh2LjY5OGMtMy4wMjYuNjk3LTQuNzQ1IDMuMzIzLTQuNzQ1IDYuNDgydjUuMTI4bC0xLjM2IDEuMzIzYy0uNjY1LjY0Ni0uMiAxLjc1NC43MzggMS43NTRoMTMuODg4Yy45NSAwIDEuNDEzLTEuMTA4Ljc0OS0xLjc1NHptLTMuNDctLjI5OEg3Ljc4MnYtNi4xNTRjMC0yLjU0NCAxLjU5Mi00LjYxNSA0LjIxOC00LjYxNXM0LjIxOCAyLjA3MSA0LjIxOCA0LjYxNXY2LjE1NHpNMTIgMjJjMS4xNiAwIDIuMTEtLjkyMyAyLjExLTIuMDUxSDkuODljMCAxLjEyOC45MzkgMi4wNTEgMi4xMSAyLjA1MXoiLz48Y2lyY2xlIGN4PSIxNyIgY3k9IjYiIHI9IjQiIGZpbGw9IiNCRDUzMTAiLz48L2c+PC9zdmc+", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2LjE5OCAxNC42MDdoLS44MzRsLS4yOTYtLjI4NWE2Ljg1NyA2Ljg1NyAwIDAwMS41NjMtNS42MzRjLS40OTYtMi45MzQtMi45NDYtNS4yNzYtNS45MDItNS42MzVhNi44NjYgNi44NjYgMCAwMC03LjY3NiA3LjY3MWMuMzU5IDIuOTU1IDIuNzAzIDUuNDAzIDUuNjM4IDUuODk5YTYuODY2IDYuODY2IDAgMDA1LjYzOC0xLjU2MmwuMjg1LjI5NnYuODMzbDQuNDg4IDQuNDg1Yy40MzIuNDMzIDEuMTQuNDMzIDEuNTczIDBhMS4xMTQgMS4xMTQgMCAwMDAtMS41NzJsLTQuNDc3LTQuNDk2em0tNi4zMzUgMEE0Ljc0NCA0Ljc0NCAwIDAxNS4xMTIgOS44NiA0Ljc0NCA0Ljc0NCAwIDAxOS44NjMgNS4xMWE0Ljc0NCA0Ljc0NCAwIDAxNC43NTEgNC43NDkgNC43NDQgNC43NDQgMCAwMS00Ljc1MSA0Ljc0OHoiIGZpbGw9IiM2NjYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwIDBjNS41MiAwIDEwIDQuNDggMTAgMTBzLTQuNDggMTAtMTAgMTBTMCAxNS41MiAwIDEwIDQuNDggMCAxMCAwem0wIDJjLTQuNDEgMC04IDMuNTktOCA4czMuNTkgOCA4IDggOC0zLjU5IDgtOC0zLjU5LTgtOC04ek01LjI2MiA3LjQ2N2EuODguODggMCAwMTEuMjYxIDBsMy40NzMgMy41MzUgMy40NzItMy41MzVhLjg5OS44OTkgMCAwMTEuMjcgMCAuOTIuOTIgMCAwMTAgMS4yODRsLTQuMTA3IDQuMTgyYS44OC44OCAwIDAxLTEuMjYyIDBMNS4yNjIgOC43NTFhLjkyLjkyIDAgMDEwLTEuMjg0eiIgZmlsbD0iIzY2NiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNLjM1NS4zMTZhLjk4NS45ODUgMCAwMDAgMS41MTVsNC43MTQgNC4xNy00LjcxNCA0LjE3YS45ODUuOTg1IDAgMDAwIDEuNTE1Yy40NzQuNDE5IDEuMjQuNDE5IDEuNzEzIDBsNS41NzctNC45MzNhLjk4NS45ODUgMCAwMDAtMS41MTVMMi4wNjguMzA1QzEuNjA3LS4xMDMuODMtLjEwMy4zNTUuMzE1eiIgZmlsbD0iIzY2NiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOCA5LjAxN1YuOTg3QzggLjE4OCA3LjA2My0uMjc1IDYuMzczLjE3OEwuNDMzIDQuMTkzYS45NjMuOTYzIDAgMDAwIDEuNjA4bDUuOTQgNC4wMTVjLjY5LjQ2MyAxLjYyNyAwIDEuNjI3LS44eiIgZmlsbD0iIzY2NiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAuOTg3djguMDI2YzAgLjc5OS45MzcgMS4yNjIgMS42MjcuODA5bDUuOTQtNC4wMTNhLjk2My45NjMgMCAwMDAtMS42MDhMMS42MjguMTg4Qy45MzctLjI3NSAwIC4xODggMCAuOTg3eiIgZmlsbD0iIzY2NiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2IDExYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzE3LjY2IDUgMTYgNWMtMS42NiAwLTMgMS4zNC0zIDNzMS4zNCAzIDMgM3ptLTggMGMxLjY2IDAgMi45OS0xLjM0IDIuOTktM1M5LjY2IDUgOCA1QzYuMzQgNSA1IDYuMzQgNSA4czEuMzQgMyAzIDN6bTAgMmMtMi4zMyAwLTcgMS4xNy03IDMuNVYxOGMwIC41NS40NSAxIDEgMWgxMmMuNTUgMCAxLS40NSAxLTF2LTEuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6bTggMGMtLjI5IDAtLjYyLjAyLS45Ny4wNS4wMi4wMS4wMy4wMy4wNC4wNCAxLjE0LjgzIDEuOTMgMS45NCAxLjkzIDMuNDFWMThjMCAuMzUtLjA3LjY5LS4xOCAxSDIyYy41NSAwIDEtLjQ1IDEtMXYtMS41YzAtMi4zMy00LjY3LTMuNS03LTMuNXoiIGZpbGw9IiM2NjYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDIuNWMtMy44NyAwLTcgMy4wNTQtNyA2LjgzMSAwIDQuMDcgNC40MiA5LjY4IDYuMjQgMTEuODE4LjQuNDY4IDEuMTMuNDY4IDEuNTMgMEMxNC41OCAxOS4wMTIgMTkgMTMuNCAxOSA5LjMzIDE5IDUuNTU0IDE1Ljg3IDIuNSAxMiAyLjV6bTAgOS4zOTFhMi41IDIuNSAwIDAxMC01IDIuNSAyLjUgMCAwMTAgNXoiIGZpbGw9IiM2NjYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIwIDZoLTF2OGMwIC41NS0uNDUgMS0xIDFINnYxYzAgMS4xLjkgMiAyIDJoMTBsNCA0VjhjMC0xLjEtLjktMi0yLTJ6bS0zIDVWNGMwLTEuMS0uOS0yLTItMkg0Yy0xLjEgMC0yIC45LTIgMnYxM2w0LTRoOWMxLjEgMCAyLS45IDItMnoiIGZpbGw9IiM2NjYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Medium_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/public/295183786cd8a138986521d9f388a286.woff", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/public/tdax.bootstrap.styles.css?3b3d52b3718eed221949",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Bold_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/accounts/423155297/preferences", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://messagecenter-w.tdameritrade.com/v1/messages/counts", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://userprincipal-w.tdameritrade.com/v4/accounts/423155297/preferences", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "c017679f8877b4fd",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/staticData/footers/footers/globalfooter/1", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://messagecenter-w.tdameritrade.com/v1/messages/counts", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "a50a2779004aba8a",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/ecms/v1/messages?apikey=MOBI@AMER.OAUTHAP&appId=tdax&pageId=/&lang=en_us", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences/dismissibleMessages?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://balancehistory-w.tdameritrade.com/v1/accounts/423155297/balances?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "dc587f33463399e4",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://accountaccess-w.tdameritrade.com/v3/accounts/423155297/orders?fromEnteredTime=2022-10-16&toEnteredTime=2022-10-23", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "513fb98b4f3e73ae",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://mobileapi.tdameritrade.wallst.com/News/Documents?source=DowJonesTopNews&firstRow=0&rowCount=3&days=3", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://accountaccess-w.tdameritrade.com/v3/accounts?fields=positions", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1",
+    "x-b3-spanid": "b66a6c783d438a65",
+    "x-b3-traceid": "b9f156b095e6fef75d7c6cb9219dec39"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/ecms/v1/messages?apikey=MOBI@AMER.OAUTHAP&appId=tdax&pageId=tax-notification&lang=en_us", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://secure.tdameritrade.com/staticData/disclosures/disclaimers/dashboard-disclosure/1", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/v1/marketdata/hours?apikey=MOBI@AMER.OAUTHAP&markets=EQUITY&date=2022-10-23", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "content-type": "application/merge-patch+json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"lastLoginTimestamp\":1666534152}",
+  "method": "PATCH",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/ecms/v1/messages?apikey=MOBI@AMER.OAUTHAP&appId=tdax&pageId=/&lang=en_us", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences/dismissibleMessages?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://balancehistory-w.tdameritrade.com/v1/accounts/423155297/balances?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://accountaccess-w.tdameritrade.com/v3/accounts/423155297/orders?fromEnteredTime=2022-10-16&toEnteredTime=2022-10-23", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://accountaccess-w.tdameritrade.com/v3/accounts?fields=positions", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/ecms/v1/messages?apikey=MOBI@AMER.OAUTHAP&appId=tdax&pageId=tax-notification&lang=en_us", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/v1/marketdata/hours?apikey=MOBI@AMER.OAUTHAP&markets=EQUITY&date=2022-10-23", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/assets/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("wss://streamer-ws.tdameritrade.com/ws", {
+  "headers": {
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-websocket-extensions": "permessage-deflate; client_max_window_bits",
+    "sec-websocket-key": "+rM79zVT0U6cno4sPJ9BDQ==",
+    "sec-websocket-version": "13"
+  },
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("wss://services.thinkorswim.com/Services/WsJson", {
+  "headers": {
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-websocket-extensions": "permessage-deflate; client_max_window_bits",
+    "sec-websocket-key": "JQ2/9J4Ug1VLF9Ev8hKJUw==",
+    "sec-websocket-version": "13"
+  },
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/v2/marketdata/quotes?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"symbols\":\"$SPX.X,$DJI,$COMPX\"}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/v2/marketdata/quotes?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://secure.tdameritrade.com/assets/favicon-32x32.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDIwYy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHptMC0xOEM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTEuODUxIDUuMjYzYS44ODEuODgxIDAgMDAwIDEuMjYzTDEzLjY4NCAxMmwtMy41MzUgMy40NzRhLjg4MS44ODEgMCAwMDAgMS4yNjNjLjM1NS4zNS45My4zNSAxLjI4NSAwbDQuMTgyLTQuMTFhLjg4MS44ODEgMCAwMDAtMS4yNjNsLTQuMTgyLTQuMTFhLjkyNy45MjcgMCAwMC0xLjI4NS4wMDh6IiBmaWxsPSIjNjY2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-RegularItalic_v1-01.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "content-type": "application/merge-patch+json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"alertIconIndicator\":true}",
+  "method": "PATCH",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/tdax/v1/preferences?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/v2/marketdata/quotes?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"symbols\":\"UROY,UROY_012023C5,AG,AG_012023C25,RUT_062124P900,SPX_072123P1000,189097108,UAMY,UAMY_012023C1\"}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://mobileapi.tdameritrade.wallst.com/News/Documents?source=BenzingaLatest|BriefingStockNews|BusinessWire|CBSMarketWatch|DowJonesNews|DowJonesTopNews|HUG|MarketWire|PrimeNewswire|PRNewswire|StdPoors|ZacksRSS&firstRow=0&rowCount=3&days=30&symbol=UROY|AG|$RUT.X|$SPX.X|189097108|UAMY", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/guidance/v1/xray/query?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.8",
+    "authorization": "Bearer SxQMbAavjY4zOwhV22egMqMI66UM+tGlWzjPGk6IViWhVloXUuWmLuEFEpehYgSZ+uETOEpfkzeOkdCoURX0QeGvi7dgR4yRR1BhgQQoQdLsyQ0zVxKscuLj8OzYZbYxU52ojjZ0tHQhibssjtRE53xt+DIY8uQATxeesWvncc+9sexvwdljQSIc9ehwvUnmK74DFzeIhoCc3hLo4BPUyV2rlGA4Owboi1N6knvc5wL6yNlVvD2k4R23XZPs66oCf1Q5/cBIzX+CUY+aseVEeM/Kv3agqv2k6uiS4QWhro0BqAXtbGIs6Lk5TS/TcNXsVmvybPQ/tFPRO9N5Ggvucc1AtbrwEntQ6zf8Uv5z59nO5vZatVCMuAwxIGH590S1on0+s9G6XeE64+0I1WMXxdLE21PWBZqglKGvJrLZV33hiUyI+sJEeqT10U+39U4C7nXtNfIJ/gqzHAOUfunBDOtzd/B4Y2aJ4DATZSp9HANMuiLaRLcu33kWQ8Pa9qwwsbmkBHbpqVuHOTnXbebCKt2VaDFvKvI/tyNZT100MQuG4LYrgoVi/JHHvl/W1172ITmLwl9AcoJbQxWWXepzABiizFu9W53QHBe25W9OSRcTgwE6pljIIbmWO33uZIasopi1IoXJLhen5HiuqiNvhtdIeiB0bw1kkUFOeuy+08exOvInFwiqkNnYibvxXbvis1LSzqukLJ9QyzQcEPthmf8WCEE2vahAxr+tc8eO7CRSvAlBDKi2Z4rIGD8Zoz8dL0kiTTk4bY+SFRerMuAJltqNI/fmEYObBnCXG4t9t7//VsEwVOwsPOOxch7Wp4Mi8P2vcoanQHowIcFYgKqbjeifFYk13r3TziUvbBF48tKb51kVUJNZInSgTMqEX6g+x4uyCTuYQxiG17lrTUNTQvLyC7zzA0Zj79APuavw5hptHXjrQ816afy+lPqXDewh7RJn60GgXRk0UA9WuvAqW0W9skYf6qoyFI+48895RXbxfHi3JiN/Zhs85GctqKtte9szlQlFm0YuOai1wgWlVst2ZPRJqitVCNzxQyTye+TczoPw6KyoZzcG69/j89CcDXQPIpk1K5BspWY+hs9Dnmo784BFajGw212FD3x19z9sWBHDJACbC00B75E",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"holdings\":[{\"symbol\":\"UROY\",\"value\":5750},{\"symbol\":\"UROY_012023C5\",\"value\":-187.5},{\"symbol\":\"AG\",\"value\":8450},{\"symbol\":\"AG_012023C25\",\"value\":-50},{\"symbol\":\"RUT_062124P900\",\"value\":9400},{\"symbol\":\"SPX_072123P1000\",\"value\":360},{\"symbol\":\"189097108\",\"value\":0},{\"symbol\":\"UAMY\",\"value\":6189.06},{\"symbol\":\"UAMY_012023C1\",\"value\":-445}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://api.tdameritrade.com/v2/marketdata/quotes?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://api.tdameritrade.com/guidance/v1/xray/query?apikey=MOBI@AMER.OAUTHAP", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "OPTIONS",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-display/TDAmeritradeSans-Light_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://mobileapi.tdameritrade.wallst.com/News/NewsImage?dockey=2310-WP-WSJ-0000312265-1", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://mobileapi.tdameritrade.wallst.com/News/NewsImage?dockey=2310-SB00280668015500933984304589206682864838424-1", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://secure.tdameritrade.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;charset=utf-8,%3Csvg width='6' height='12' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M0 11.313L.617 12 6 6 .617 0 0 .687 4.766 6z'/%3E%3C/defs%3E%3Cuse fill='%2356565E' fill-rule='nonzero' xlink:href='%23a'/%3E%3C/svg%3E", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-screen/TDAmeritradeSansScreen-Light_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("https://media.tdameritrade.com/media/fonts/tdasans-screen/TDAmeritradeSansScreen-Regular_v1-12.woff2", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "font",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://media.tdameritrade.com/media/css/tdasans_remote.css",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}); ;
+fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTE5LjQzIDEyLjk4Yy4wNC0uMzIuMDctLjY0LjA3LS45OCAwLS4zNC0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2YS41LjUgMCAwMC0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVBLjQ4OC40ODggMCAwMDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFhLjU2Ni41NjYgMCAwMC0uMTgtLjAzYy0uMTcgMC0uMzQuMDktLjQzLjI1bC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OCAwIC4zMy4wMy42Ni4wNy45OGwtMi4xMSAxLjY1Yy0uMTkuMTUtLjI0LjQyLS4xMi42NGwyIDMuNDZhLjUuNSAwIDAwLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjA2LjAyLjEyLjAzLjE4LjAzLjE3IDAgLjM0LS4wOS40My0uMjVsMi0zLjQ2Yy4xMi0uMjIuMDctLjQ5LS4xMi0uNjRsLTIuMTEtMS42NXptLTEuOTgtMS43MWMuMDQuMzEuMDUuNTIuMDUuNzMgMCAuMjEtLjAyLjQzLS4wNS43M2wtLjE0IDEuMTMuODkuNyAxLjA4Ljg0LS43IDEuMjEtMS4yNy0uNTEtMS4wNC0uNDItLjkuNjhjLS40My4zMi0uODQuNTYtMS4yNS43M2wtMS4wNi40My0uMTYgMS4xMy0uMiAxLjM1aC0xLjRsLS4xOS0xLjM1LS4xNi0xLjEzLTEuMDYtLjQzYy0uNDMtLjE4LS44My0uNDEtMS4yMy0uNzFsLS45MS0uNy0xLjA2LjQzLTEuMjcuNTEtLjctMS4yMSAxLjA4LS44NC44OS0uNy0uMTQtMS4xM2MtLjAzLS4zMS0uMDUtLjU0LS4wNS0uNzQgMC0uMi4wMi0uNDMuMDUtLjczbC4xNC0xLjEzLS44OS0uNy0xLjA4LS44NC43LTEuMjEgMS4yNy41MSAxLjA0LjQyLjktLjY4Yy40My0uMzIuODQtLjU2IDEuMjUtLjczbDEuMDYtLjQzLjE2LTEuMTMuMi0xLjM1aDEuMzlsLjE5IDEuMzUuMTYgMS4xMyAxLjA2LjQzYy40My4xOC44My40MSAxLjIzLjcxbC45MS43IDEuMDYtLjQzIDEuMjctLjUxLjcgMS4yMS0xLjA3Ljg1LS44OS43LjE0IDEuMTN6TTEyIDhjLTIuMjEgMC00IDEuNzktNCA0czEuNzkgNCA0IDQgNC0xLjc5IDQtNC0xLjc5LTQtNC00em0wIDZjLTEuMSAwLTItLjktMi0ycy45LTIgMi0yIDIgLjkgMiAyLS45IDItMiAyeiIgZmlsbD0iIzY2NiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9nPjwvc3ZnPg==", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+});
+
+

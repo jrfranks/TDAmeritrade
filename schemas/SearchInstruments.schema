@@ -1,0 +1,26 @@
+SearchInstruments_api = %{
+  schema: => [
+  description: "Search or retrieve instrument data, including fundamental data.",
+  errors: [
+    {"400", "An error message indicating the caller must pass a non null value in the parameter."},
+    {"401", "Unauthorized"},
+    {"403", "Forbidden"},
+    {"404", "An error message indicating the instrument for the symbol/cusip was not found."},
+    {"406", "An error message indicating an issue in the symbol regex, or number of symbols searched is over the maximum."}
+  ],
+  name: "Search Instruments",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your OAuth User ID to make an unauthenticated request for delayed data."},
+    {"symbol", "string", "Value to pass to the search. See <b>projection</b> description for more information."},
+    {"projection", "string",
+     "'The type of request:<br><br><code>symbol-search</code>: Retrieve instrument data of a specific symbol or cusip<br><br><code>symbol-regex</code>: Retrieve instrument data for all symbols matching regex. Example: <code>symbol=XYZ.*</code> will return all symbols beginning with XYZ<br><br><code>desc-search</code>: Retrieve instrument data for instruments whose description contains the word supplied. Example: <code>symbol=FakeCompany</code> will return all instruments with FakeCompany in the description.<br><br><code>desc-regex</code>: Search description with full regex support. Example: <code>symbol=XYZ.[A-C]</code> returns all instruments whose descriptions contain a word beginning with XYZ followed by a character A through C.<br><br><code>fundamental</code>: Returns fundamental data for a single instrument specified by exact symbol.'"}
+  ],
+  response_schema: [{"type", "array"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/instruments",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

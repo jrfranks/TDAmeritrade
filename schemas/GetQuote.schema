@@ -1,0 +1,23 @@
+GetQuote_api = %{
+  schema: => [
+  description: "Get quote for a symbol",
+  errors: [
+    {"400", "An error message indicating the caller must pass a non null value in the parameter."},
+    {"401", "An error message indicating the caller must pass a valid Authorization in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller is forbidden from accessing this page."},
+    {"404", "An error message indicating the instrument for the symbol/cusip was not found."}
+  ],
+  name: "Get Quote",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your <b>OAuth User ID </b>to make an unauthenticated request for delayed data."},
+    {"symbol", "string", "Enter one symbol (case-sensitive)."}
+  ],
+  response_schema: [{"type", "array"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/marketdata/\#{symbol}/quotes",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

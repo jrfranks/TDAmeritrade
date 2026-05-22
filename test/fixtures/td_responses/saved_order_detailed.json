@@ -1,0 +1,17 @@
+{
+  "savedTime": "2024-01-20T10:00:00Z",
+  "orderType": "MARKET",
+  "session": "NORMAL",
+  "duration": "DAY",
+  "orderStrategyType": "SINGLE",
+  "orderLegCollection": [
+    {
+      "instruction": "BUY",
+      "quantity": 2,
+      "instrument": {
+        "symbol": "MSFT",
+        "assetType": "EQUITY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+GetStreamerSubscriptionKeys_api = %{
+  schema: => [
+  description: "SubscriptionKey for provided accounts or default accounts.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid AuthToken in the HTTP authorization request header."},
+    {"500", "An error message indicating there was an unexpected server error."},
+    {"503", "An error message indicating there is a temporary problem responding."}
+  ],
+  name: "Get Streamer Subscription Keys",
+  query_parameters: [
+    {"accountIds", "string", "A comma separated string of account IDs, to fetch subscription keys for each of them."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [{"$dict", "SubscriptionKey"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/userprincipals/streamersubscriptionkeys",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "Key" => [{"properties", [{"key", [{"type", "string"}]}]}, {"type", "object"}],
+  "SubscriptionKey" => [{"properties", [{"keys", [{"items", [{"$dict", "Key"}]}, {"type", "array"}]}]}, {"type", "object"}]
+}
+}

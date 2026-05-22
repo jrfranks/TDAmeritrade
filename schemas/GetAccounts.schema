@@ -1,0 +1,25 @@
+GetAccounts_api = %{
+  schema: => [
+  description: "Account balances, positions, and orders for all linked accounts.",
+  errors: [
+    {"207",
+     "Indicates there was a problem getting account data for one or more linked accounts, but the accounts who's data returned successfully is in the response. Do not aggregate balances and positions for this case."},
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid AuthToken in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller is forbidden from accessing this page."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Get Accounts",
+  query_parameters: [
+    {"fields", "string",
+     "Balances displayed by default, additional fields can be added here by adding <code>positions</code> or <code>orders</code><br> <br>Example:<br><code>fields=positions,orders</code>"},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/accounts",
+  security_schema: [{"OAuthSecurity", [{"grantType", "ACCESSCODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

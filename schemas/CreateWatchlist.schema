@@ -1,0 +1,21 @@
+CreateWatchlist_api = %{
+  schema: => [
+  description: "Create watchlist for specific account.This method does not verify that the symbol or asset type are valid.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid Authorization in the HTTP authorization request header."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Create Watchlist",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "POST",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/watchlists",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

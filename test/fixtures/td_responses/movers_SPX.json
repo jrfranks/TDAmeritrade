@@ -1,0 +1,4 @@
+[
+  {"symbol": "XYZ", "direction": "up", "change": 5.23, "last": 142.5, "totalVolume": 12345678, "description": "XYZ Corp"},
+  {"symbol": "ABC", "direction": "down", "change": -3.14, "last": 87.2, "totalVolume": 9876543, "description": "ABC Inc"}
+]

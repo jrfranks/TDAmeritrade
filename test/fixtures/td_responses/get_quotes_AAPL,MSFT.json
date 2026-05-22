@@ -1,0 +1,12 @@
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "lastPrice": 178.46,
+    "netChange": -0.09
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "lastPrice": 312.14,
+    "netChange": 1.23
+  }
+}

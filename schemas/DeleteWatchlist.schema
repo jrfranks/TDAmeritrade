@@ -1,0 +1,23 @@
+DeleteWatchlist_api = %{
+  schema: => [
+  description: "Delete watchlist for a specific account.",
+  errors: [
+    {"204", "Watchlist deleted."},
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid Authorization in the HTTP authorization request header."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Delete Watchlist",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"watchlistId", "integer", "The ID of the watchlist to be updated."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "DELETE",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/watchlists/\#{watchlistId}",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

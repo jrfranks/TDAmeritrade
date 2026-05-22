@@ -1,0 +1,19 @@
+[
+  {
+    "orderId": 123456789,
+    "status": "FILLED",
+    "orderType": "MARKET",
+    "orderStrategyType": "SINGLE",
+    "orderLegCollection": [
+      {
+        "legId": 1,
+        "instruction": "BUY",
+        "quantity": 10,
+        "instrument": {
+          "symbol": "AAPL",
+          "assetType": "EQUITY"
+        }
+      }
+    ]
+  }
+]

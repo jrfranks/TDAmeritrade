@@ -1,0 +1,41 @@
+{
+  "userId": "MYUSER123",
+  "userCdDomainId": "A12345678",
+  "primaryAccountId": "12345",
+  "accounts": [
+    {
+      "accountId": "12345",
+      "accountCdDomainId": "A12345678",
+      "company": "MYCOMPANY",
+      "segment": "MYSEG",
+      "acl": "aclvalue",
+      "authorizations": {
+        "scottradeAccount": false,
+        "stockTrading": true,
+        "optionTradingLevel": "COVERED",
+        "marginTrading": true,
+        "advancedMargin": false,
+        "streamingNews": true,
+        "streamerAccess": true,
+        "levelTwoQuotes": false,
+        "expressTrading": true
+      }
+    }
+  ],
+  "streamerInfo": {
+    "streamerBinaryUrl": "https://streamer.tdameritrade.com",
+    "streamerSocketUrl": "wss://streamer.tdameritrade.com",
+    "token": "dummy-token-value",
+    "tokenTimestamp": "2024-01-01T10:00:00Z",
+    "userGroup": "MYGROUP",
+    "accessLevel": "MYLEVEL",
+    "appId": "MYAPPID",
+    "acl": "aclvalue"
+  },
+  "streamerSubscriptionKeys": {
+    "keys": [
+      { "key": "dummy-subscription-key-12345" }
+    ]
+  },
+  "professionalStatus": "NON_PROFESSIONAL"
+}

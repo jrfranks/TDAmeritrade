@@ -1,0 +1,37 @@
+#/bin/bash
+#<span class="field-content model_title"><a href="/account-access/apis">Accounts and Trading</a></span>
+
+root="https://developer.tdameritrade.com"
+declare -A seen
+pages=(${root}/apis)
+
+function fetch_page_refs {
+    curl -s "$1" | \
+    grep -o '<a href=\"/.*/apis\(/[^\"]*\)*\">[^<]*</a>' | \
+    awk '{ match($0, /<a href=".*">/); printf("%s\n", substr($0,RSTART+9, RLENGTH-11))}'
+}
+
+function fetch {
+    echo fetch "${1}"
+    new=`fetch_page_refs "${1}"`
+    for url in ${new}; do
+	echo ":'$url'" xx "'${root}${url}'"
+        if [[ -z ${seen[${url}]} ]]; then
+            seen[${url}]="true"
+	    pages+=("${root}${url}")
+        fi
+    done
+}
+
+head=0
+tail=${#pages[@]}
+while [[ head -lt tail ]]; do
+    echo $head  $tail
+    fetch "${pages[${head}]}" }
+    head=$((${head} + 1))
+    tail=${#pages[@]}
+done
+
+for url in "${pages[@]}"; do
+    echo ${url}
+done

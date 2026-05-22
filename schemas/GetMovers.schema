@@ -1,0 +1,38 @@
+GetMovers_api = %{
+  schema: => [
+  description: "Top 10 (up or down) movers by value or percent for a particular market",
+  errors: [
+    {"400", "An error message indicating the caller must pass a correct value in the parameter."},
+    {"401", "Unauthorized"},
+    {"403", "Forbidden"},
+    {"404", "An error message indicating movers for the instrument was not found."}
+  ],
+  name: "Get Movers",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your <b>OAuth User ID </b>to make an unauthenticated request for delayed data."},
+    {"index", "string", "The index symbol to get movers from. Can be $COMPX, $DJI, or $SPX.X"},
+    {"direction", "string", "To return movers with the specified directions of up or down"},
+    {"change", "string", "To return movers with the specified change types of percent or value"}
+  ],
+  response_schema: [{"$dict", "Mover"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/marketdata/\#{index}/movers",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "Mover" => [
+    {"properties",
+     [
+       {"change", [{"format", "double"}, {"type", "number"}]},
+       {"description", [{"type", "string"}]},
+       {"direction", [{"enum", ["up", "down"]}, {"type", "string"}]},
+       {"last", [{"format", "double"}, {"type", "number"}]},
+       {"symbol", [{"type", "string"}]},
+       {"totalVolume", [{"format", "int64"}, {"type", "integer"}]}
+     ]},
+    {"type", "object"}
+  ]
+}
+}

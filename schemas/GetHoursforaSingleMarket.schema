@@ -1,0 +1,44 @@
+GetHoursforaSingleMarket_api = %{
+  schema: => [
+  description: "Retrieve market hours for specified single market",
+  errors: [{"401", "Unauthorized"}, {"403", "Forbidden"}, {"404", "Not Found"}],
+  name: "Get Hours for a Single Market",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your <b>OAuth User ID </b>to make an unauthenticated request for delayed data."},
+    {"market", "string",
+     "The market for which you're requesting market hours. Valid markets are EQUITY, OPTION, FUTURE, BOND, or FOREX."},
+    {"date", "string",
+     "\"The date for which market hours information is requested. Valid ISO-8601 formats are :  <code>yyyy-MM-dd</code> and <code>yyyy-MM-dd'T'HH:mm:ssz</code>.\""}
+  ],
+  response_schema: [
+    {"additionalProperties", [{"additionalProperties", [{"$dict", "Hours"}]}, {"type", "object"}]},
+    {"type", "object"}
+  ],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/marketdata/\#{market}/hours",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "Hours" => [
+    {"properties",
+     [
+       {"category", [{"type", "string"}]},
+       {"date", [{"type", "string"}]},
+       {"exchange", [{"type", "string"}]},
+       {"isOpen", [{"type", "boolean"}]},
+       {"marketType",
+        [
+          {"enum",
+           ["BOND", "EQUITY", "ETF", "FOREX", "FUTURE", "FUTURE_OPTION", "INDEX", "INDICATOR", "MUTUAL_FUND", "OPTION", "UNKNOWN"]},
+          {"type", "string"}
+        ]},
+       {"product", [{"type", "string"}]},
+       {"productName", [{"type", "string"}]},
+       {"sessionHours", [{"additionalProperties", [{"items", [{"type", "string"}]}, {"type", "array"}]}, {"type", "object"}]}
+     ]},
+    {"type", "object"}
+  ]
+}
+}

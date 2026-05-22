@@ -1,0 +1,24 @@
+ReplaceSavedOrder_api = %{
+  schema: => [
+  description: "Replace an existing saved order for an account. The existing saved order will be replaced by the new order. Click here(https://developer.tdameritrade.com/content/place-order-samples) for to see our Place Order Samples Guide.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid AuthToken in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller is forbidden from accessing this page."},
+    {"404", "An error message if the order was not found."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Replace Saved Order",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"savedOrderId", "integer", "Saved Order Number."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "PUT",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/savedorders/\#{savedOrderId}",
+  security_schema: [{"OAuthSecurity", [{"grantType", "ACCESSCODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

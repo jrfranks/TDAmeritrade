@@ -1,0 +1,12 @@
+{
+  "name": "Updated Tech Watchlist",
+  "watchlistItems": [
+    {
+      "instrument": {
+        "symbol": "AAPL",
+        "assetType": "EQUITY"
+      },
+      "quantity": 15
+    }
+  ]
+}

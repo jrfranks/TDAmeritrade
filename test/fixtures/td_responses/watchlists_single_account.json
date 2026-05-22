@@ -1,0 +1,18 @@
+[
+  {
+    "watchlistId": "123456789",
+    "name": "My Tech Watchlist",
+    "accountId": "12345",
+    "status": "UNCHANGED",
+    "watchlistItems": [
+      {
+        "sequenceId": 1,
+        "instrument": {
+          "symbol": "AAPL",
+          "assetType": "EQUITY"
+        },
+        "quantity": 10
+      }
+    ]
+  }
+]

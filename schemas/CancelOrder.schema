@@ -1,0 +1,24 @@
+CancelOrder_api = %{
+  schema: => [
+  description: "Cancel a specific order for a specific account. Order throttle limits may apply.  Click here(https://developer.tdameritrade.com/content/place-order-samples) for to see our Place Order Samples Guide for more information around order throttles and examples of orders.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid AuthToken in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller is forbidden from accessing this page."},
+    {"404", "An error message if the order was not found."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Cancel Order",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"orderId", "integer", "Order Number."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "DELETE",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/orders/\#{orderId}",
+  security_schema: [{"OAuthSecurity", [{"grantType", "ACCESSCODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}

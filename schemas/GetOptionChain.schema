@@ -1,0 +1,104 @@
+GetOptionChain_api = %{
+  schema: => [
+  description: "Get option chain for an optionable Symbol",
+  errors: [
+    {"400", "An error message indicating the caller must pass a non null value in the parameter."},
+    {"401", "Unauthorized"},
+    {"403", "Forbidden"},
+    {"404", "An error message indicating optionchain for the symbol was not found."},
+    {"500", "An error message indicating internal error in the service."}
+  ],
+  name: "Get Option Chain",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your <b>OAuth User ID </b>to make an unauthenticated request for delayed data."},
+    {"symbol", "string", "Enter one symbol"},
+    {"contractType", "string", "Type of contracts to return in the chain. Can be CALL, PUT, or ALL. Default is ALL."},
+    {"strikeCount", "integer", "The number of strikes to return above and below the at-the-money price."},
+    {"includeQuotes", "boolean",
+     "Include quotes for options in the option chain. Can be <code>TRUE</code> or <code>FALSE</code>. Default is <code>FALSE</code>."},
+    {"strategy", "string",
+     "Passing a value returns a Strategy Chain. Possible values are <code>SINGLE</code>, <code>ANALYTICAL</code> (allows use of the volatility, underlyingPrice, interestRate, and daysToExpiration params to calculate theoretical values), <code>COVERED</code>, <code>VERTICAL</code>, <code>CALENDAR</code>, <code>STRANGLE</code>, <code>STRADDLE</code>, <code>BUTTERFLY</code>, <code>CONDOR</code>, <code>DIAGONAL</code>, <code>COLLAR</code>, or <code>ROLL</code>. Default is <code>SINGLE</code>."},
+    {"interval", "number", "Strike interval for spread strategy chains (see strategy param)."},
+    {"strike", "number", "Provide a strike price to return options only at that strike price."},
+    {"range", "string",
+     "Returns options for the given range. Possible values are:<br><br><code>ITM</code>: In-the-money<br><code>NTM</code>: Near-the-money<br><code>OTM</code>: Out-of-the-money<br><code>SAK</code>: Strikes Above Market<br><code>SBK</code>: Strikes Below Market<br><code>SNK</code>: Strikes Near Market<br><code>ALL</code>: All Strikes<br><br>Default is <code>ALL</code>."},
+    {"fromDate", "string",
+     "'Only return expirations after this date. For strategies, expiration refers to the nearest term expiration in the strategy. Valid ISO-8601 formats are: <code>yyyy-MM-dd</code> and <code>yyyy-MM-dd'T'HH:mm:ssz</code>.'"},
+    {"toDate", "string",
+     "'Only return expirations before this date. For strategies, expiration refers to the nearest term expiration in the strategy. Valid ISO-8601 formats are: <code>yyyy-MM-dd</code> and <code>yyyy-MM-dd'T'HH:mm:ssz</code>.'"},
+    {"volatility", "number", "Volatility to use in calculations. Applies only to ANALYTICAL strategy chains (see strategy param)."},
+    {"underlyingPrice", "number",
+     "Underlying price to use in calculations. Applies only to ANALYTICAL strategy chains (see strategy param)."},
+    {"interestRate", "number",
+     "Interest rate to use in calculations. Applies only to ANALYTICAL strategy chains (see strategy param)."},
+    {"daysToExpiration", "integer",
+     "Days to expiration to use in calculations. Applies only to ANALYTICAL strategy chains (see strategy param)."},
+    {"expMonth", "string",
+     "'Return only options expiring in the specified month. Month is given in the three character format.<br>Example: <code>JAN</code><br>Default is <code>ALL</code>.''"},
+    {"optionType", "string",
+     "'Type of contracts to return. Possible values are:<br><br><code>S</code>: Standard contracts<br><code>NS</code>: Non-standard contracts<br><code>ALL</code>: All contracts<br><br>Default is <code>ALL</code>.''"}
+  ],
+  response_schema: [{"$dict", "OptionChain"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/marketdata/chains",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "OptionChain" => [
+    {"properties",
+     [
+       {"callExpDateMap", [{"additionalProperties", [{"type", "object"}]}, {"type", "object"}]},
+       {"daysToExpiration", [{"format", "double"}, {"type", "number"}]},
+       {"interestRate", [{"format", "double"}, {"type", "number"}]},
+       {"interval", [{"format", "double"}, {"type", "number"}]},
+       {"isDelayed", [{"type", "boolean"}]},
+       {"isIndex", [{"type", "boolean"}]},
+       {"putExpDateMap", [{"additionalProperties", [{"type", "object"}]}, {"type", "object"}]},
+       {"status", [{"type", "string"}]},
+       {"strategy",
+        [
+          {"enum",
+           ["SINGLE", "ANALYTICAL", "COVERED", "VERTICAL", "CALENDAR", "STRANGLE", "STRADDLE", "BUTTERFLY", "CONDOR", "DIAGONAL",
+            "COLLAR", "ROLL"]},
+          {"type", "string"}
+        ]},
+       {"symbol", [{"type", "string"}]},
+       {"underlying", [{"$dict", "Underlying"}]},
+       {"underlyingPrice", [{"format", "double"}, {"type", "number"}]},
+       {"volatility", [{"format", "double"}, {"type", "number"}]}
+     ]},
+    {"type", "object"}
+  ],
+  "Underlying" => [
+    {"properties",
+     [
+       {"ask", [{"format", "double"}, {"type", "number"}]},
+       {"askSize", [{"format", "int32"}, {"type", "integer"}]},
+       {"bid", [{"format", "double"}, {"type", "number"}]},
+       {"bidSize", [{"format", "int32"}, {"type", "integer"}]},
+       {"change", [{"format", "double"}, {"type", "number"}]},
+       {"close", [{"format", "double"}, {"type", "number"}]},
+       {"delayed", [{"type", "boolean"}]},
+       {"description", [{"type", "string"}]},
+       {"exchangeName", [{"enum", ["IND", "ASE", "NYS", "NAS", "NAP", "PAC", "OPR", "BATS"]}, {"type", "string"}]},
+       {"fiftyTwoWeekHigh", [{"format", "double"}, {"type", "number"}]},
+       {"fiftyTwoWeekLow", [{"format", "double"}, {"type", "number"}]},
+       {"highPrice", [{"format", "double"}, {"type", "number"}]},
+       {"last", [{"format", "double"}, {"type", "number"}]},
+       {"lowPrice", [{"format", "double"}, {"type", "number"}]},
+       {"mark", [{"format", "double"}, {"type", "number"}]},
+       {"markChange", [{"format", "double"}, {"type", "number"}]},
+       {"markPercentChange", [{"format", "double"}, {"type", "number"}]},
+       {"openPrice", [{"format", "double"}, {"type", "number"}]},
+       {"percentChange", [{"format", "double"}, {"type", "number"}]},
+       {"quoteTime", [{"format", "int64"}, {"type", "integer"}]},
+       {"symbol", [{"type", "string"}]},
+       {"totalVolume", [{"format", "int64"}, {"type", "integer"}]},
+       {"tradeTime", [{"format", "int64"}, {"type", "integer"}]}
+     ]},
+    {"type", "object"}
+  ]
+}
+}

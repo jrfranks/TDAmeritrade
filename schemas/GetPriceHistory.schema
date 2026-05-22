@@ -1,0 +1,56 @@
+GetPriceHistory_api = %{
+  schema: => [
+  description: "Get price history for a symbol",
+  errors: [{"401", "Unauthorized"}, {"403", "Forbidden"}, {"404", "Not Found"}],
+  name: "Get Price History",
+  query_parameters: [
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."},
+    {"apikey", "string", "Pass your <b>OAuth User ID </b>to make an unauthenticated request for delayed data."},
+    {"symbol", "string", "Enter one symbol (case-sensitive)."},
+    {"periodType", "string",
+     "The type of period to show. Valid values are <code>day</code>, <code>month</code>, <code>year</code>, or <code>ytd</code> (year to date). Default is <code>day</code>."},
+    {"period", "number",
+     "The number of periods to show.<br><br>Example: For a 2 day / 1 min chart, the values would be:<br><br><code>period</code>: 2<br><code>periodType</code>: day<br><code>frequency</code>: 1<br><code>frequencyType</code>: min<br><br>Valid periods by periodType (defaults marked with an asterisk):<br><br><code>day</code>: 1, 2, 3, 4, 5, 10*<br><code>month</code>: 1*, 2, 3, 6<br><code>year</code>: 1*, 2, 3, 5, 10, 15, 20<br><code>ytd</code>: 1*"},
+    {"frequencyType", "string",
+     "The type of frequency with which a new candle is formed.<br><br>Valid frequencyTypes by periodType (defaults marked with an asterisk):<br><br><code>day</code>: minute*<br><code>month</code>: daily, weekly*<br><code>year</code>: daily, weekly, monthly*<br><code>ytd</code>: daily, weekly*"},
+    {"frequency", "integer",
+     "The number of the frequencyType to be included in each candle.<br><br>Valid frequencies by frequencyType (defaults marked with an asterisk):<br><br><code>minute</code>: 1*, 5, 10, 15, 30<br><code>daily</code>: 1*<br><code>weekly</code>: 1*<br><code>monthly</code>: 1*"},
+    {"endDate", "integer",
+     "End date as milliseconds since epoch. If startDate and endDate are provided, period should not be provided. Default is previous trading day."},
+    {"startDate", "integer",
+     "Start date as milliseconds since epoch. If startDate and endDate are provided, period should not be provided."},
+    {"needExtendedHoursData", "boolean",
+     "<code>true</code> to return extended hours data, <code>false</code> for regular market hours only. Default is <code>true</code>"}
+  ],
+  response_schema: [{"$dict", "CandleList"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/marketdata/\#{symbol}/pricehistory",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "Candle" => [
+    {"description", "Candle data"},
+    {"properties",
+     [
+       {"close", [{"description", "Close"}, {"format", "double"}, {"type", "number"}]},
+       {"datetime", [{"description", "DateTime"}, {"format", "int64"}, {"type", "integer"}]},
+       {"high", [{"description", "High"}, {"format", "double"}, {"type", "number"}]},
+       {"low", [{"description", "Low"}, {"format", "double"}, {"type", "number"}]},
+       {"open", [{"description", "Open"}, {"format", "double"}, {"type", "number"}]},
+       {"volume", [{"description", "Volume"}, {"format", "int64"}, {"type", "integer"}]}
+     ]},
+    {"type", "object"}
+  ],
+  "CandleList" => [
+    {"description", "List of Candle data"},
+    {"properties",
+     [
+       {"candles", [{"description", "List of candles"}, {"items", [{"$dict", "Candle"}]}, {"type", "array"}]},
+       {"empty", [{"type", "boolean"}]},
+       {"symbol", [{"description", "Symbol"}, {"type", "string"}]}
+     ]},
+    {"type", "object"}
+  ]
+}
+}

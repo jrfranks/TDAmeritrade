@@ -1,0 +1,20 @@
+[
+  {
+    "savedTime": "2024-01-20T10:00:00Z",
+    "orderType": "LIMIT",
+    "session": "NORMAL",
+    "price": 175.00,
+    "duration": "GOOD_TILL_CANCEL",
+    "orderStrategyType": "SINGLE",
+    "orderLegCollection": [
+      {
+        "instruction": "BUY",
+        "quantity": 5,
+        "instrument": {
+          "symbol": "AAPL",
+          "assetType": "EQUITY"
+        }
+      }
+    ]
+  }
+]

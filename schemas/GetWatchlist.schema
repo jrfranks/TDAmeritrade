@@ -1,0 +1,59 @@
+GetWatchlist_api = %{
+  schema: => [
+  description: "Specific watchlist for a specific account.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid Authorization in the HTTP authorization request header."},
+    {"404", "An error message indicating the account or the watchlist ID does not exist."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Get Watchlist",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"watchlistId", "integer", "The ID of the watchlist to be retrieved."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [{"$dict", "Watchlist"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/watchlists/\#{watchlistId}",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "DateParam" => [{"type", "object"}],
+  "Instrument" => [
+    {"properties",
+     [
+       {"assetType", [{"enum", ["EQUITY", "OPTION", "MUTUAL_FUND", "FIXED_INCOME", "INDEX"]}, {"type", "string"}]},
+       {"description", [{"type", "string"}]},
+       {"symbol", [{"type", "string"}]}
+     ]},
+    {"type", "object"}
+  ],
+  "Item" => [
+    {"properties",
+     [
+       {"averagePrice", [{"format", "double"}, {"minimum", 0.0}, {"type", "number"}]},
+       {"commission", [{"format", "double"}, {"minimum", 0.0}, {"type", "number"}]},
+       {"instrument", [{"$dict", "Instrument"}]},
+       {"purchasedDate", [{"$dict", "DateParam"}]},
+       {"quantity", [{"format", "double"}, {"type", "number"}]},
+       {"sequenceId", [{"format", "int32"}, {"minimum", 0.0}, {"type", "integer"}]},
+       {"status", [{"enum", ["UNCHANGED", "CREATED", "UPDATED", "DELETED"]}, {"type", "string"}]}
+     ]},
+    {"type", "object"}
+  ],
+  "Watchlist" => [
+    {"properties",
+     [
+       {"accountId", [{"type", "string"}]},
+       {"name", [{"type", "string"}]},
+       {"status", [{"enum", ["UNCHANGED", "CREATED", "UPDATED", "DELETED"]}, {"type", "string"}]},
+       {"watchlistId", [{"type", "string"}]},
+       {"watchlistItems", [{"items", [{"$dict", "Item"}]}, {"type", "array"}]}
+     ]},
+    {"required", ["watchlistItems"]},
+    {"type", "object"}
+  ]
+}
+}

@@ -1,0 +1,89 @@
+GetTransaction_api = %{
+  schema: => [
+  description: "Transaction for a specific account.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid Authorization in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller doesn't have access to the account in the request."},
+    {"404", "An error message indicating the specified transaction could not be found."},
+    {"500", "An error message indicating there was an unexpected server error."},
+    {"503", "An error message indicating there is a temporary problem responding."}
+  ],
+  name: "Get Transaction",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"transactionId", "integer", "Transaction ID."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [{"$dict", "Transaction"}],
+  rest_action: "GET",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/transactions/\#{transactionId}",
+  security_schema: [{"oauthsecurity", [{"grantType", "AUTHORIZATION_CODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{
+  "Transaction" => [
+    {"properties",
+     [
+       {"accruedInterest", [{"format", "double"}, {"type", "number"}]},
+       {"achStatus", [{"enum", ["Approved", "Rejected", "Cancel", "Error"]}, {"type", "string"}]},
+       {"cashBalanceEffectFlag", [{"default", false}, {"type", "boolean"}]},
+       {"clearingReferenceNumber", [{"type", "string"}]},
+       {"dayTradeBuyingPowerEffect", [{"format", "double"}, {"type", "number"}]},
+       {"description", [{"type", "string"}]},
+       {"fees", [{"additionalProperties", [{"format", "double"}, {"type", "number"}]}, {"type", "object"}]},
+       {"netAmount", [{"format", "double"}, {"type", "number"}]},
+       {"orderDate", [{"format", "date-time"}, {"type", "string"}]},
+       {"orderId", [{"type", "string"}]},
+       {"requirementReallocationAmount", [{"format", "double"}, {"type", "number"}]},
+       {"settlementDate", [{"format", "date-time"}, {"type", "string"}]},
+       {"sma", [{"format", "double"}, {"type", "number"}]},
+       {"subAccount", [{"type", "string"}]},
+       {"transactionDate", [{"format", "date-time"}, {"type", "string"}]},
+       {"transactionId", [{"format", "int64"}, {"type", "integer"}]},
+       {"transactionItem", [{"$dict", "TransactionItem"}]},
+       {"transactionSubType", [{"type", "string"}]},
+       {"type",
+        [
+          {"enum",
+           ["TRADE", "RECEIVE_AND_DELIVER", "DIVIDEND_OR_INTEREST", "ACH_RECEIPT", "ACH_DISBURSEMENT", "CASH_RECEIPT",
+            "CASH_DISBURSEMENT", "ELECTRONIC_FUND", "WIRE_OUT", "WIRE_IN", "JOURNAL", "MEMORANDUM", "MARGIN_CALL", "MONEY_MARKET",
+            "SMA_ADJUSTMENT"]},
+          {"type", "string"}
+        ]}
+     ]},
+    {"type", "object"}
+  ],
+  "TransactionInstrument" => [
+    {"properties",
+     [
+       {"assetType", [{"enum", ["EQUITY", "MUTUAL_FUND", "OPTION", "FIXED_INCOME", "CASH_EQUIVALENT"]}, {"type", "string"}]},
+       {"bondInterestRate", [{"format", "double"}, {"type", "number"}]},
+       {"bondMaturityDate", [{"format", "date-time"}, {"type", "string"}]},
+       {"cusip", [{"type", "string"}]},
+       {"description", [{"type", "string"}]},
+       {"optionExpirationDate", [{"format", "date-time"}, {"type", "string"}]},
+       {"optionStrikePrice", [{"format", "double"}, {"type", "number"}]},
+       {"putCall", [{"enum", ["PUT", "CALL"]}, {"type", "string"}]},
+       {"symbol", [{"type", "string"}]},
+       {"underlyingSymbol", [{"type", "string"}]}
+     ]},
+    {"type", "object"}
+  ],
+  "TransactionItem" => [
+    {"properties",
+     [
+       {"accountId", [{"format", "int32"}, {"type", "integer"}]},
+       {"amount", [{"format", "double"}, {"type", "number"}]},
+       {"cost", [{"format", "double"}, {"type", "number"}]},
+       {"instruction", [{"enum", ["BUY", "SELL"]}, {"type", "string"}]},
+       {"instrument", [{"$dict", "TransactionInstrument"}]},
+       {"parentChildIndicator", [{"type", "string"}]},
+       {"parentOrderKey", [{"format", "int32"}, {"type", "integer"}]},
+       {"positionEffect", [{"enum", ["OPENING", "CLOSING", "AUTOMATIC"]}, {"type", "string"}]},
+       {"price", [{"format", "double"}, {"type", "number"}]}
+     ]},
+    {"type", "object"}
+  ]
+}
+}

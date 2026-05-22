@@ -1,0 +1,76 @@
+#!/bin/bash
+
+root="https://developer.tdameritrade.com"
+
+function fetch {
+	module=`echo $1 | tr -d ' '`
+	url="${root}${2}"
+	file=${module}.html
+	echo "Fetching: '$1' '${url}' -> ${module}.schema"
+
+	if [[ ! -f ${file} ]]; then
+		echo curl --output ${file} "${url}"
+		curl --output ${file} "${url}"
+	fi
+        echo ~/.bin/scrapetdapi "${file}" > "${module}.schema"
+        ~/.bin/scrapetdapi "${file}" > "${module}.schema"
+}
+
+
+echo Fetching: https://developer.tdameritrade.com/account-access/apis
+fetch "Cancel Order" "/account-access/apis/delete/accounts/%7BaccountId%7D/orders/%7BorderId%7D-0"
+fetch "Get Order" "/account-access/apis/get/accounts/%7BaccountId%7D/orders/%7BorderId%7D-0"
+fetch "Get Orders By Path" "/account-access/apis/get/accounts/%7BaccountId%7D/orders-0"
+fetch "Get Orders By Query" "/account-access/apis/get/orders-0"
+fetch "Place Order" "/account-access/apis/post/accounts/%7BaccountId%7D/orders-0"
+fetch "Replace Order" "/account-access/apis/put/accounts/%7BaccountId%7D/orders/%7BorderId%7D-0"
+fetch "Create Saved Order" "/account-access/apis/post/accounts/%7BaccountId%7D/savedorders-0"
+fetch "Delete Saved Order" "/account-access/apis/delete/accounts/%7BaccountId%7D/savedorders/%7BsavedOrderId%7D-0"
+fetch "Get Saved Order" "/account-access/apis/get/accounts/%7BaccountId%7D/savedorders/%7BsavedOrderId%7D-0"
+fetch "Get Saved Orders by Path" "/account-access/apis/get/accounts/%7BaccountId%7D/savedorders-0"
+fetch "Replace Saved Order" "/account-access/apis/put/accounts/%7BaccountId%7D/savedorders/%7BsavedOrderId%7D-0"
+fetch "Get Account" "/account-access/apis/get/accounts/%7BaccountId%7D-0"
+fetch "Get Accounts" "/account-access/apis/get/accounts-0"
+
+echo Fetching: https://developer.tdameritrade.com/authentication/apis
+fetch "Post Access Token" "/authentication/apis/post/token-0"
+
+echo Fetching: https://developer.tdameritrade.com/instruments/apis
+fetch "Search Instruments" "/instruments/apis/get/instruments"
+fetch "Get Instrument" "/instruments/apis/get/instruments/%7Bcusip%7D"
+
+echo Fetching: https://developer.tdameritrade.com/market-hours/apis
+fetch "Get Hours for Multiple Markets" "/market-hours/apis/get/marketdata/hours"
+fetch "Get Hours for a Single Market" "/market-hours/apis/get/marketdata/%7Bmarket%7D/hours"
+
+echo Fetching: https://developer.tdameritrade.com/movers/apis
+fetch "Get Movers" "/movers/apis/get/marketdata/%7Bindex%7D/movers"
+
+echo Fetching: https://developer.tdameritrade.com/option-chains/apis
+fetch "Get Option Chain" "/option-chains/apis/get/marketdata/chains"
+
+echo Fetching: https://developer.tdameritrade.com/price-history/apis
+fetch "Get Price History" "/price-history/apis/get/marketdata/%7Bsymbol%7D/pricehistory"
+
+echo Fetching: https://developer.tdameritrade.com/quotes/apis
+fetch "Get Quote" "/quotes/apis/get/marketdata/%7Bsymbol%7D/quotes"
+fetch "Get Quotes" "/quotes/apis/get/marketdata/quotes"
+
+echo Fetching: https://developer.tdameritrade.com/transaction-history/apis
+fetch "Get Transaction" "/transaction-history/apis/get/accounts/%7BaccountId%7D/transactions/%7BtransactionId%7D-0"
+fetch "Get Transactions" "/transaction-history/apis/get/accounts/%7BaccountId%7D/transactions-0"
+
+echo Fetching: https://developer.tdameritrade.com/user-principal/apis
+fetch "Get Preferences" "/user-principal/apis/get/accounts/%7BaccountId%7D/preferences-0"
+fetch "Get Streamer Subscription Keys" "/user-principal/apis/get/userprincipals/streamersubscriptionkeys-0"
+fetch "Get User Principals" "/user-principal/apis/get/userprincipals-0"
+fetch "Update Preferences" "/user-principal/apis/put/accounts/%7BaccountId%7D/preferences-0"
+
+echo Fetching: https://developer.tdameritrade.com/watchlist/apis
+fetch "Create Watchlist" "/watchlist/apis/post/accounts/%7BaccountId%7D/watchlists-0"
+fetch "Delete Watchlist" "/watchlist/apis/delete/accounts/%7BaccountId%7D/watchlists/%7BwatchlistId%7D-0"
+fetch "Get Watchlist" "/watchlist/apis/get/accounts/%7BaccountId%7D/watchlists/%7BwatchlistId%7D-0"
+fetch "Get Watchlists for Multiple Accounts" "/watchlist/apis/get/accounts/watchlists-0"
+fetch "Get Watchlists for Single Account" "/watchlist/apis/get/accounts/%7BaccountId%7D/watchlists-0"
+fetch "Replace Watchlist" "/watchlist/apis/put/accounts/%7BaccountId%7D/watchlists/%7BwatchlistId%7D-0"
+fetch "Update Watchlist" "/watchlist/apis/patch/accounts/%7BaccountId%7D/watchlists/%7BwatchlistId%7D-0"

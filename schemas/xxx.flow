@@ -1,0 +1,393 @@
+{
+"_initiator": {
+  "type": "other"
+},
+"_priority": "VeryHigh",
+"_resourceType": "document",
+"cache": {},
+"connection": "638391",
+"pageref": "page_25",
+"request": {
+  "method": "POST",
+  "url": "https://auth.tdameritrade.com/oauth?client_id=MOBI%40AMER.OAUTHAP&response_type=code&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+    },
+    { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+    { "name": "Accept-Language", "value": "en-US,en;q=0.8" },
+    { "name": "Cache-Control", "value": "no-cache" },
+    { "name": "Connection", "value": "keep-alive" },
+    { "name": "Content-Length", "value": "3312" },
+    { "name": "Content-Type", "value": "application/x-www-form-urlencoded" },
+    {
+      "name": "Cookie",
+      "value": "dv_data=c331f16669771182233c2d902d381541132210a1dc2; MARKETING_COOKIE_1=1; NSC_JOkuz4qpe4efcwddlqol43cysdy1pd3=7c02a3dc0383861fcad275418d0b998935c3e90893de89b643466fca4fc799be9584fed7; languagePref=en_US; s_ecid=MCMID%7C32746113973959611525881091279279897505; AMCVS_F3470978534690820A490D4C%40AdobeOrg=1; AMCV_F3470978534690820A490D4C%40AdobeOrg=-1303530583%7CMCIDTS%7C19289%7CMCMID%7C32746113973959611525881091279279897505%7CMCAID%7CNONE%7CMCOPTOUT-1666538615s%7CNONE%7CvVersion%7C3.3.0; s_pers=%20s_fid%3D2E746A4E758119F4-262D273C07082973%7C1729689815988%3B%20s_pageName%3Dmkt%253Ahomepage%7C1666533215993%3B%20s_visit%3D1%7C1666533215994%3B; utag_main=v_id:01823ff9b9a10002362a1e0967560406a002306200bd0$_sn:5$_se:17$_ss:0$_st:1666535934929$ses_id:1666531415792%3Bexp-session$_pn:17%3Bexp-session$vapi_domain:tdameritrade.com; SESSION=VERBUkVUQUlMV0VCIDYyNTVhOGVkLWRjMjItNDgxYS1hZTdmLTI3YWY2MWE3ZGExNiAwIDU4MjZlMDBmLWFmM2MtNDc5Zi04YTQxLWJmM2I1YWZkNmQ3OSBNT0JJIDIzNDFkYmIwLWZiMDAtNDM0MC05ZjZhLTczZDAxY2IzOGEwNg=="
+    },
+    { "name": "Host", "value": "auth.tdameritrade.com" },
+    { "name": "Origin", "value": "https://auth.tdameritrade.com" },
+    { "name": "Pragma", "value": "no-cache" },
+    {
+      "name": "Referer",
+      "value": "https://auth.tdameritrade.com/auth?response_type=code&client_id=MOBI%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe&code_challenge=C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64&code_challenge_method=S256"
+    },
+    { "name": "Sec-Fetch-Dest", "value": "document" },
+    { "name": "Sec-Fetch-Mode", "value": "navigate" },
+    { "name": "Sec-Fetch-Site", "value": "same-origin" },
+    { "name": "Sec-Fetch-User", "value": "?1" },
+    { "name": "Sec-GPC", "value": "1" },
+    { "name": "Upgrade-Insecure-Requests", "value": "1" },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+    }
+  ],
+  "queryString": [
+    { "name": "client_id", "value": "MOBI%40AMER.OAUTHAP" },
+    { "name": "response_type", "value": "code" },
+    { "name": "redirect_uri", "value": "https%3A%2F%2Fsecure.tdameritrade.com%2FauthCafe" },
+    { "name": "code_challenge", "value": "C4JAMf1RHsh7AwNnFCFzwTRrIY1H60qX9K8h0t2hu64" },
+    { "name": "code_challenge_method", "value": "S256" }
+  ],
+  "cookies": [
+    {
+      "name": "dv_data",
+      "value": "c331f16669771182233c2d902d381541132210a1dc2",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-01-23T07:41:12.649Z",
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "name": "MARKETING_COOKIE_1",
+      "value": "1",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-19T14:23:54.234Z",
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NSC_JOkuz4qpe4efcwddlqol43cysdy1pd3",
+      "value": "7c02a3dc0383861fcad275418d0b998935c3e90893de89b643466fca4fc799be9584fed7",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "1969-12-31T23:59:59.000Z",
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "name": "languagePref",
+      "value": "en_US",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-21T13:23:35.406Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "s_ecid",
+      "value": "MCMID%7C32746113973959611525881091279279897505",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-21T13:23:35.977Z",
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCVS_F3470978534690820A490D4C%40AdobeOrg",
+      "value": "1",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "1969-12-31T23:59:59.000Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "AMCV_F3470978534690820A490D4C%40AdobeOrg",
+      "value": "-1303530583%7CMCIDTS%7C19289%7CMCMID%7C32746113973959611525881091279279897505%7CMCAID%7CNONE%7CMCOPTOUT-1666538615s%7CNONE%7CvVersion%7C3.3.0",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-21T13:23:35.985Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "s_pers",
+      "value": "%20s_fid%3D2E746A4E758119F4-262D273C07082973%7C1729689815988%3B%20s_pageName%3Dmkt%253Ahomepage%7C1666533215993%3B%20s_visit%3D1%7C1666533215994%3B",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-21T13:23:35.995Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "utag_main",
+      "value": "v_id:01823ff9b9a10002362a1e0967560406a002306200bd0$_sn:5$_se:17$_ss:0$_st:1666535934929$ses_id:1666531415792%3Bexp-session$_pn:17%3Bexp-session$vapi_domain:tdameritrade.com",
+      "path": "/",
+      "domain": ".tdameritrade.com",
+      "expires": "2023-04-21T14:08:54.930Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "SESSION",
+      "value": "VERBUkVUQUlMV0VCIDYyNTVhOGVkLWRjMjItNDgxYS1hZTdmLTI3YWY2MWE3ZGExNiAwIDU4MjZlMDBmLWFmM2MtNDc5Zi04YTQxLWJmM2I1YWZkNmQ3OSBNT0JJIDIzNDFkYmIwLWZiMDAtNDM0MC05ZjZhLTczZDAxY2IzOGEwNg==",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "1969-12-31T23:59:59.000Z",
+      "httpOnly": true,
+      "secure": true
+    }
+  ],
+  "headersSize": 2123,
+  "bodySize": 3312,
+  "postData": {
+    "mimeType": "application/x-www-form-urlencoded",
+    "text": "_csrf=ebaadecc-1500-4569-9e07-b155f4229ad1&s_scope=PlaceTrades+AccountAccess+MoveMoney&s_response_type=code&s_client-desc=TD+Ameritrade&s_client-name=MOBI%40AMER.OAUTHAP&fp_fp2DeviceId=b245c110d52d7d4cdd486db34358c03f&fp_browser=mozilla%2F5.0+%28x11%3B+linux+x86_64%29+applewebkit%2F537.36+%28khtml%2C+like+gecko%29+chrome%2F106.0.0.0+safari%2F537.36%7C5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%7CLinux+x86_64&fp_screen=24%7C1920%7C1080%7C1040&fp_timezone=-7&fp_language=lang%3Den-US%7Csyslang%3D%7Cuserlang%3D&fp_java=0&fp_cookie=1&fp_cfp=%7B%22navigator%22%3A%7B%22properties%22%3A%7B%22vendorSub%22%3A%22%22%2C%22productSub%22%3A%2220030107%22%2C%22vendor%22%3A%22Google+Inc.%22%2C%22maxTouchPoints%22%3A%220%22%2C%22globalPrivacyControl%22%3A%22true%22%2C%22doNotTrack%22%3A%22NULL%22%2C%22pdfViewerEnabled%22%3A%22true%22%2C%22hardwareConcurrency%22%3A%223%22%2C%22cookieEnabled%22%3A%22true%22%2C%22appCodeName%22%3A%22Mozilla%22%2C%22appName%22%3A%22Netscape%22%2C%22appVersion%22%3A%225.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22platform%22%3A%22Linux+x86_64%22%2C%22product%22%3A%22Gecko%22%2C%22userAgent%22%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22language%22%3A%22en-US%22%2C%22onLine%22%3A%22true%22%2C%22webdriver%22%3A%22false%22%2C%22keyboard%22%3A%22NULL%22%2C%22deviceMemory%22%3A%220.5%22%7D%2C%22propertiesMD5%22%3A%225b8cac2b842c8930b012696725e6b1be%22%2C%22navorderMD5%22%3A%22a7ce436f0b2d19200ef9af26c1e3f23e%22%2C%22navmethods%22%3A%22getGamepads%7CjavaEnabled%7CsendBeacon%7Cvibrate%7CclearAppBadge%7CgetUserMedia%7CrequestMIDIAccess%7CrequestMediaKeySystemAccess%7CsetAppBadge%7CwebkitGetUserMedia%7CgetBattery%7CgetInstalledRelatedApps%7CregisterProtocolHandler%7CunregisterProtocolHandler%22%2C%22navmethMD5%22%3A%224770a237f4d2ecd946a8c042d75c4312%22%7D%2C%22screen%22%3A%7B%22properties%22%3A%7B%22availWidth%22%3A%221920%22%2C%22availHeight%22%3A%221040%22%2C%22width%22%3A%221920%22%2C%22height%22%3A%221080%22%2C%22colorDepth%22%3A%2224%22%2C%22pixelDepth%22%3A%2224%22%2C%22availLeft%22%3A%220%22%2C%22availTop%22%3A%2240%22%2C%22onchange%22%3A%22NULL%22%2C%22isExtended%22%3A%22true%22%7D%2C%22propertiesMD5%22%3A%229c3fdf74601d8a23d9067a10bf65b428%22%2C%22tamper%22%3Afalse%7D%2C%22timezone%22%3A%22-8%7C-7%22%2C%22canvas%22%3A%2251bae3dbc418985328bb360d0ed2d1d5%22%2C%22java%22%3Afalse%2C%22localstorage%22%3Atrue%2C%22sessionstorage%22%3Atrue%2C%22indexedDB%22%3Atrue%2C%22plugins%22%3A%7B%22names%22%3A%22OHjx4cu%7CMGDBAAgw%7COpenSource+PDF+and+PS+plug-in%7CWeb+PDF+Renderer%7Capplication%2Fpdf%7CPortable+Document+Format%22%2C%22namesMD5%22%3A%22c6b8cb32e0ba276d6290a1f663de7ead%22%7D%2C%22fonts%22%3A%222195acf3f810f21ab34a6aea83513b5c%22%2C%22mathroutines%22%3A%2211013.232920103324%7C-1.4214488238747245%22%2C%22md5%22%3A%229b32be5394f79f3b5a77daa87502af89%22%2C%22latency%22%3A183%2C%22form%22%3A%7B%22fields%22%3A%22su_username%7Csu_password%7Crememberuserid%7Cauthorize%7Creject%22%7D%2C%22clkhz%22%3Anull%7D&lang=en-us&su_username=33332560&su_password=M11se--1&authorize=Log+in&signed=47401c4f3232a13be8c1ef5f2b7655101eaed485",
+    "params": [
+      {
+        "name": "_csrf",
+        "value": "ebaadecc-1500-4569-9e07-b155f4229ad1"
+      },
+      {
+        "name": "s_scope",
+        "value": "PlaceTrades+AccountAccess+MoveMoney"
+      },
+      {
+        "name": "s_response_type",
+        "value": "code"
+      },
+      {
+        "name": "s_client-desc",
+        "value": "TD+Ameritrade"
+      },
+      {
+        "name": "s_client-name",
+        "value": "MOBI%40AMER.OAUTHAP"
+      },
+      {
+        "name": "fp_fp2DeviceId",
+        "value": "b245c110d52d7d4cdd486db34358c03f"
+      },
+      {
+        "name": "fp_browser",
+        "value": "mozilla%2F5.0+%28x11%3B+linux+x86_64%29+applewebkit%2F537.36+%28khtml%2C+like+gecko%29+chrome%2F106.0.0.0+safari%2F537.36%7C5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%7CLinux+x86_64"
+      },
+      {
+        "name": "fp_screen",
+        "value": "24%7C1920%7C1080%7C1040"
+      },
+      {
+        "name": "fp_timezone",
+        "value": "-7"
+      },
+      {
+        "name": "fp_language",
+        "value": "lang%3Den-US%7Csyslang%3D%7Cuserlang%3D"
+      },
+      {
+        "name": "fp_java",
+        "value": "0"
+      },
+      {
+        "name": "fp_cookie",
+        "value": "1"
+      },
+      {
+        "name": "fp_cfp",
+        "value": "%7B%22navigator%22%3A%7B%22properties%22%3A%7B%22vendorSub%22%3A%22%22%2C%22productSub%22%3A%2220030107%22%2C%22vendor%22%3A%22Google+Inc.%22%2C%22maxTouchPoints%22%3A%220%22%2C%22globalPrivacyControl%22%3A%22true%22%2C%22doNotTrack%22%3A%22NULL%22%2C%22pdfViewerEnabled%22%3A%22true%22%2C%22hardwareConcurrency%22%3A%223%22%2C%22cookieEnabled%22%3A%22true%22%2C%22appCodeName%22%3A%22Mozilla%22%2C%22appName%22%3A%22Netscape%22%2C%22appVersion%22%3A%225.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22platform%22%3A%22Linux+x86_64%22%2C%22product%22%3A%22Gecko%22%2C%22userAgent%22%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36%22%2C%22language%22%3A%22en-US%22%2C%22onLine%22%3A%22true%22%2C%22webdriver%22%3A%22false%22%2C%22keyboard%22%3A%22NULL%22%2C%22deviceMemory%22%3A%220.5%22%7D%2C%22propertiesMD5%22%3A%225b8cac2b842c8930b012696725e6b1be%22%2C%22navorderMD5%22%3A%22a7ce436f0b2d19200ef9af26c1e3f23e%22%2C%22navmethods%22%3A%22getGamepads%7CjavaEnabled%7CsendBeacon%7Cvibrate%7CclearAppBadge%7CgetUserMedia%7CrequestMIDIAccess%7CrequestMediaKeySystemAccess%7CsetAppBadge%7CwebkitGetUserMedia%7CgetBattery%7CgetInstalledRelatedApps%7CregisterProtocolHandler%7CunregisterProtocolHandler%22%2C%22navmethMD5%22%3A%224770a237f4d2ecd946a8c042d75c4312%22%7D%2C%22screen%22%3A%7B%22properties%22%3A%7B%22availWidth%22%3A%221920%22%2C%22availHeight%22%3A%221040%22%2C%22width%22%3A%221920%22%2C%22height%22%3A%221080%22%2C%22colorDepth%22%3A%2224%22%2C%22pixelDepth%22%3A%2224%22%2C%22availLeft%22%3A%220%22%2C%22availTop%22%3A%2240%22%2C%22onchange%22%3A%22NULL%22%2C%22isExtended%22%3A%22true%22%7D%2C%22propertiesMD5%22%3A%229c3fdf74601d8a23d9067a10bf65b428%22%2C%22tamper%22%3Afalse%7D%2C%22timezone%22%3A%22-8%7C-7%22%2C%22canvas%22%3A%2251bae3dbc418985328bb360d0ed2d1d5%22%2C%22java%22%3Afalse%2C%22localstorage%22%3Atrue%2C%22sessionstorage%22%3Atrue%2C%22indexedDB%22%3Atrue%2C%22plugins%22%3A%7B%22names%22%3A%22OHjx4cu%7CMGDBAAgw%7COpenSource+PDF+and+PS+plug-in%7CWeb+PDF+Renderer%7Capplication%2Fpdf%7CPortable+Document+Format%22%2C%22namesMD5%22%3A%22c6b8cb32e0ba276d6290a1f663de7ead%22%7D%2C%22fonts%22%3A%222195acf3f810f21ab34a6aea83513b5c%22%2C%22mathroutines%22%3A%2211013.232920103324%7C-1.4214488238747245%22%2C%22md5%22%3A%229b32be5394f79f3b5a77daa87502af89%22%2C%22latency%22%3A183%2C%22form%22%3A%7B%22fields%22%3A%22su_username%7Csu_password%7Crememberuserid%7Cauthorize%7Creject%22%7D%2C%22clkhz%22%3Anull%7D"
+      },
+      { "name": "lang", "value": "en-us" },
+      { "name": "su_username", "value": "33332560" },
+      { "name": "su_password", "value": "M11se--1" },
+      { "name": "authorize", "value": "Log+in" },
+      { "name": "signed", "value": "47401c4f3232a13be8c1ef5f2b7655101eaed485" }
+    ]
+  }
+},
+"response": {
+  "status": 302,
+  "statusText": "",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Authorization-Response-Type",
+      "value": "A"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Content-Security-Policy",
+      "value": "frame-ancestors 'self'"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    },
+    {
+      "name": "Date",
+      "value": "Sun, 23 Oct 2022 14:09:09 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "0"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=60"
+    },
+    {
+      "name": "Location",
+      "value": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E"
+    },
+    {
+      "name": "Pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "ADRUM_BTa=\"R:231|g:fee281ad-a7e7-4501-8eed-33f9c1d42361\"; Version=1; Max-Age=30; Expires=Sun, 23-Oct-2022 14:09:40 GMT; Path=/"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "ADRUM_BTa=\"R:231|g:fee281ad-a7e7-4501-8eed-33f9c1d42361|n:customer1_bb5bb0b7-421e-4345-9ad7-62a11b741bf7\"; Version=1; Max-Age=30; Expires=Sun, 23-Oct-2022 14:09:40 GMT; Path=/"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "ADRUM_BT1=\"R:231|i:1633\"; Version=1; Max-Age=30; Expires=Sun, 23-Oct-2022 14:09:40 GMT; Path=/"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "ADRUM_BT1=\"R:231|i:1633|e:46\"; Version=1; Max-Age=30; Expires=Sun, 23-Oct-2022 14:09:40 GMT; Path=/"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "ADRUM_BT1=\"R:231|i:1633|e:46|d:34\"; Version=1; Max-Age=30; Expires=Sun, 23-Oct-2022 14:09:40 GMT; Path=/"
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "SESSION=VERBUkVUQUlMV0VCIDYyNTVhOGVkLWRjMjItNDgxYS1hZTdmLTI3YWY2MWE3ZGExNiAwIDU4MjZlMDBmLWFmM2MtNDc5Zi04YTQxLWJmM2I1YWZkNmQ3OQ==; Path=/; Secure; HttpOnly"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=31536000"
+    },
+    {
+      "name": "Transfer-Encoding",
+      "value": "chunked"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "X-Frame-Options",
+      "value": "DENY"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "vary",
+      "value": "accept-encoding"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "ADRUM_BTa",
+      "value": "\"R:231|g:fee281ad-a7e7-4501-8eed-33f9c1d42361\"",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "2022-10-23T14:09:40.669Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "ADRUM_BTa",
+      "value": "\"R:231|g:fee281ad-a7e7-4501-8eed-33f9c1d42361|n:customer1_bb5bb0b7-421e-4345-9ad7-62a11b741bf7\"",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "2022-10-23T14:09:40.669Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "ADRUM_BT1",
+      "value": "\"R:231|i:1633\"",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "2022-10-23T14:09:40.669Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "ADRUM_BT1",
+      "value": "\"R:231|i:1633|e:46\"",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "2022-10-23T14:09:40.669Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "ADRUM_BT1",
+      "value": "\"R:231|i:1633|e:46|d:34\"",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": "2022-10-23T14:09:40.669Z",
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "name": "SESSION",
+      "value": "VERBUkVUQUlMV0VCIDYyNTVhOGVkLWRjMjItNDgxYS1hZTdmLTI3YWY2MWE3ZGExNiAwIDU4MjZlMDBmLWFmM2MtNDc5Zi04YTQxLWJmM2I1YWZkNmQ3OQ==",
+      "path": "/",
+      "domain": "auth.tdameritrade.com",
+      "expires": null,
+      "httpOnly": true,
+      "secure": true
+    }
+  ],
+  "content": {
+    "size": 0,
+    "mimeType": "application/json",
+    "compression": -1
+  },
+  "redirectURL": "https://secure.tdameritrade.com/authCafe?code=AkR6HyM9X6fGq%2BVAbv0RT%2B9l7PZpg02Do10Wo0xGwwJsPqszJeQjmaIdrzzVPQxiqncRXx4yvr0XFCvsJP7E5ucNXo6XfvGyXWiP8XCW2k392p4mbUNiKTBQgSGsCoMrmj9%2BYDoNimwRbZtUkvmO9KGYY%2Bgn4FmHTHWMKY7KHWUQjrhFhTqYMhnanwIa7DBnuKv2Vj9bMrz%2BrYjYqBucor3MMbtxA%2FJzzJuixKqmgbX6NDYwd2e8IolYFECPpJ2BD0W5APDCgB9t9xAysWuv95%2FqxJRNA0bucOaRhkmYWybO%2FvYY03d0TWGmxxXcwDeiPRZnosHNiNVIfMW%2Fdc%2FUv54Os%2B4l0FgM1lqZYR%2BNaz9UxDum%2BH1t51OBVGqNtajDMFudvu5WSALRnAwAZLiIWUvHnjNHL9JVNo%2BjaReWbtemKq0pOHB9A5pqNuF100MQuG4LYrgoVi%2FJHHvlO80jSJhBLTO1cAES%2FpXqJedFdrn%2BQ9Ho3n0w45%2FyPS7wsBZQUTL70WO0TNERQphN8umWGKbNLujCuSkbNtW%2BXtuv%2FTwflAY1Qd%2BIzU0LQ%2FumH8l3nokpM2sOjS%2F8i0h4ffUjDBBPcv%2BZNWMTDUbsrQEk04T9mlZODu%2FwWVA2vvz0NpVaiENX9HzmS3niGGy6xOfTYhwt1AfdrrBNMXu7suBtvCCwU6YL7dHHN41PxCE0cqCgM4JnqWLLFIeDsqrAKDy%2BoiNPo8oafBK1BVResIFrjuMEIlrYfE%2F2Z3gkPLpfyi3UDl%2Fd1ujfg5FT4Xy112k0A8yXCAt2Vc2giCOgaTFtFzcUc4%2BHDWSeYUr%2FTl7mKSL5KJWD%2BLEqCdejHwhXiYmHEH6KvUtclxwSig8GY9ZTMWZnVcu6R7cecUXuMHtTpBQNdh2au37MWZg%3D212FD3x19z9sWBHDJACbC00B75E",
+  "headersSize": 2423,
+  "bodySize": 1,
+  "_transferSize": 2424,
+  "_error": null
+},
+"serverIPAddress": "198.200.171.172",
+"startedDateTime": "2022-10-23T14:09:10.665Z",
+"time": 104.83799991197884,
+"timings": {
+  "blocked": 5.28799987450242,
+  "dns": -1,
+  "ssl": -1,
+  "connect": -1,
+  "send": 0.16700000000000004,
+  "wait": 97.17299997325242,
+  "receive": 2.2100000642240047,
+  "_blocked_queueing": 4.72299987450242
+}
+},
+

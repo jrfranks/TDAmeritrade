@@ -1,0 +1,24 @@
+DeleteSavedOrder_api = %{
+  schema: => [
+  description: "Delete a specific saved order for a specific account.",
+  errors: [
+    {"400", "An error message indicating the validation problem with the request."},
+    {"401", "An error message indicating the caller must pass a valid AuthToken in the HTTP authorization request header."},
+    {"403", "An error message indicating the caller is forbidden from accessing this page."},
+    {"404", "An error message if the order was not found."},
+    {"500", "An error message indicating there was an unexpected server error."}
+  ],
+  name: "Delete Saved Order",
+  query_parameters: [
+    {"accountId", "string", "Account Number."},
+    {"savedOrderId", "integer", "Saved Order Number."},
+    {"Authorization", "string",
+     "Supply an access token to make an authenticated request. The format is <code>Bearer &lt;access token&gt;</code>."}
+  ],
+  response_schema: [],
+  rest_action: "DELETE",
+  rest_url: "https://api.tdameritrade.com/v1/accounts/\#{accountId}/savedorders/\#{savedOrderId}",
+  security_schema: [{"OAuthSecurity", [{"grantType", "ACCESSCODE"}, {"type", "OAUTH2"}]}]
+]
+  , dict: => %{}
+}
