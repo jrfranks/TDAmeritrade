@@ -1,6 +1,6 @@
 # TDAmeritrade Elixir Client
 
-A complete, self-contained, and beautifully structured Elixir implementation of the historical TD Ameritrade (now Schwab) REST and Streaming APIs.
+A complete, self-contained Elixir implementation of the historical TD Ameritrade (now Schwab) REST and Streaming APIs.
 
 This library preserves the full historical API surface as high-quality, maintainable Elixir code long after the original service was decommissioned. It is designed as a **fully runnable code demonstration and reference implementation**, proving correctness through an extensive automated test suite using [Bypass](https://github.com/PSPDFKit-labs/bypass) for hermetic HTTP mocking. No live credentials or network access are required.
 
@@ -39,7 +39,7 @@ TDAmeritrade.Stream.Offline.subscribe(streamer, "LEVELONE_EQUITY", "AAPL", "0,1,
 # Push a recorded frame (in real usage the Real streamer receives live frames)
 TDAmeritrade.Stream.Offline.push_frame(some_recorded_frame)
 
-# Or run the full beautiful demo:
+# Or run the full demo:
 #   elixir -S mix run demo.exs
 ```
 
@@ -74,7 +74,7 @@ Prefer the explicit `TDAmeritrade.Rest.*` and `TDAmeritrade.Stream.*` modules fo
 
 ## Maintenance Note
 
-The project is intentionally structured so that `mix test` is the only command a maintainer or reviewer ever needs to run to gain complete confidence in the implementation.
+The project is intentionally structured so that `mix test` is the only command a maintainer or reviewer ever needs to run to verify the implementation.
 
 ---
 
