@@ -1,3 +1,11 @@
+# +
+#           Copyright (c) 2022-2026 SvelteSoft Inc.
+#                  Licensed under the MIT License.
+#                   admin@svelte.works
+#
+#                 Author: John R. Franks
+# -
+
 defmodule TDAmeritrade.QuietFormatter do
   @moduledoc """
   Clean per-test ExUnit formatter.

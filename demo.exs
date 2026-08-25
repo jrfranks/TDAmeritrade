@@ -1,3 +1,11 @@
+# +
+#           Copyright (c) 2022-2026 SvelteSoft Inc.
+#                  Licensed under the MIT License.
+#                   admin@svelte.works
+#
+#                 Author: John R. Franks
+# -
+
 # Beautiful demo of the modern TDAmeritrade API (no credentials needed)
 #
 # Run with:  elixir -S mix run demo.exs

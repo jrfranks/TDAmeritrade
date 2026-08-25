@@ -2,7 +2,7 @@
 
 **Version**: 0.2.0 (current as of 2026)  
 **Status**: Retrospective architecture and design description of the as-built library  
-**Related files**: [README.md](README.md), [PYTHON_API_GAPS.md](PYTHON_API_GAPS.md), [mix.exs](mix.exs)
+**Related files**: [README.md](README.md), [PYTHON_API_GAPS.md](PYTHON_API_GAPS.md), [mix.exs](mix.exs), [LICENSE](LICENSE)
 
 This document describes the architecture, implementation approach, and explicit design decisions in the TDAmeritrade Elixir client. It is intended for maintainers, contributors, and anyone studying how to build a self-contained, hermetic reference implementation of a retired external API in Elixir.
 
@@ -308,7 +308,7 @@ The structure (small per-endpoint modules, shared helpers, dual hermetic streami
 
 Key files for further reading:
 - `lib/tdameritrade/rest.ex:10-18` — rationale for the shared Rest helper
-- `mix.exs:24-33` — coverage philosophy and exclusions
+- `mix.exs` (`test_coverage`) — coverage philosophy and exclusions
 - `lib/tdameritrade/stream/real.ex` and `offline.ex` — streaming architecture and unified contract
 - `PYTHON_API_GAPS.md` — detailed porting status vs. Python reference
 - `test/support/td_bypass.ex` — hermetic test foundation

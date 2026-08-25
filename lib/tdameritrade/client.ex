@@ -1,10 +1,11 @@
 # +
 #           Copyright (c) 2022-2026 SvelteSoft Inc.
-#                  All Rights Reserved.
+#                  Licensed under the MIT License.
 #                   admin@svelte.works
 #
-#                 Author: John R. Franks (updated for demo)
+#                 Author: John R. Franks
 # -
+
 defmodule TDAmeritrade.Client do
   @moduledoc """
   Lightweight, immutable client session for the TD Ameritrade (historical) API.

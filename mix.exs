@@ -1,6 +1,6 @@
 # +
-#           Copyright (c) 2022 SvelteSoft Inc.
-#                  All Rights Reserved.
+#           Copyright (c) 2022-2026 SvelteSoft Inc.
+#                  Licensed under the MIT License.
 #                   admin@svelte.works
 #
 #                 Author: John R. Franks
@@ -14,6 +14,9 @@ defmodule Tdameritrade.MixProject do
       app: :tdameritrade,
       version: "0.2.0",
       elixir: "~> 1.14",
+      description:
+        "Complete Elixir implementation of the historical TD Ameritrade REST and Streaming APIs.",
+      package: package(),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       # Demo / test support
@@ -54,6 +57,13 @@ defmodule Tdameritrade.MixProject do
       test: ["test"],
       # Full CI-style verification (format + warnings-as-errors + coverage with threshold)
       "test.ci": ["format --check-formatted", "compile --warnings-as-errors", "test --cover"]
+    ]
+  end
+
+  defp package do
+    [
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/jrfranks/TDAmeritrade"}
     ]
   end
 

@@ -76,6 +76,12 @@ Prefer the explicit `TDAmeritrade.Rest.*` and `TDAmeritrade.Stream.*` modules fo
 
 The project is intentionally structured so that `mix test` is the only command a maintainer or reviewer ever needs to run to verify the implementation.
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
+
+The vendored Python reference client under `doc/td-ameritrade-python-api-0.3.5/` is also MIT-licensed; see that directory's `LICENSE` for its copyright notice.
+
 ---
 
 **This library proves that a complete, documented, and exhaustively tested TD Ameritrade client can live on as a high-quality Elixir code artifact long after the original service has been decommissioned.**

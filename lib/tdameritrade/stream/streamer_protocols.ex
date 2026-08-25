@@ -1,9 +1,9 @@
 # +
 #           Copyright (c) 2022-2026 SvelteSoft Inc.
-#                  All Rights Reserved.
+#                  Licensed under the MIT License.
 #                   admin@svelte.works
 #
-#                 Author: John R. Franks (demo implementation)
+#                 Author: John R. Franks
 # -
 
 defmodule TDAmeritrade.Stream.StreamerProtocols do

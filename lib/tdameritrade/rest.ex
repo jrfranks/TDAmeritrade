@@ -1,10 +1,11 @@
 # +
 #           Copyright (c) 2022-2026 SvelteSoft Inc.
-#                  All Rights Reserved.
+#                  Licensed under the MIT License.
 #                   admin@svelte.works
 #
 #                 Author: John R. Franks
 # -
+
 defmodule TDAmeritrade.Rest do
   @moduledoc """
   Shared helpers for the modern `TDAmeritrade.Rest.*` endpoint modules.
