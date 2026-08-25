@@ -69,7 +69,7 @@ defmodule TDAmeritrade.WatchlistsTest do
                )
 
       assert is_list(data)
-      if length(data) > 0, do: assert is_map(hd(data))
+      if length(data) > 0, do: assert(is_map(hd(data)))
     end
   end
 

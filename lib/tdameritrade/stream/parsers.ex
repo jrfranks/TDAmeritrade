@@ -30,7 +30,8 @@ defmodule TDAmeritrade.Stream.Parsers do
       Map.has_key?(msg, "snapshot") ->
         Map.put(msg, "snapshot", parse_snapshot_messages(msg["snapshot"]))
 
-      true -> msg
+      true ->
+        msg
     end
   end
 

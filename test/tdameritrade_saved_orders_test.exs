@@ -30,7 +30,7 @@ defmodule TDAmeritrade.SavedOrdersTest do
                TDAmeritrade.Rest.GetSavedOrdersByPath.get_saved_orders_by_path(client, "12345")
 
       assert is_list(data)
-      if length(data) > 0, do: assert is_map(hd(data))
+      if length(data) > 0, do: assert(is_map(hd(data)))
     end
 
     test "surfaces 404 for unknown account" do

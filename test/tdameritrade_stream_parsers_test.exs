@@ -27,7 +27,8 @@ defmodule TDAmeritrade.StreamParsersTest do
 
       parsed = Parsers.parse_message(raw)
 
-      assert [%{"service" => "ADMIN", "command" => "LOGIN", "content" => content}] = parsed["response"]
+      assert [%{"service" => "ADMIN", "command" => "LOGIN", "content" => content}] =
+               parsed["response"]
 
       assert content.success == true
       assert content.code == 0
@@ -50,7 +51,8 @@ defmodule TDAmeritrade.StreamParsersTest do
 
       parsed = Parsers.parse_message(raw)
 
-      assert [%{"service" => "ADMIN", "command" => "LOGIN", "content" => content}] = parsed["response"]
+      assert [%{"service" => "ADMIN", "command" => "LOGIN", "content" => content}] =
+               parsed["response"]
 
       assert content.success == false
       assert content.code == 3

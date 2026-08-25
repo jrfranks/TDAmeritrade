@@ -1,5 +1,7 @@
 # TDAmeritrade Elixir Client
 
+[![CI](https://github.com/jrfranks/TDAmeritrade/actions/workflows/ci.yml/badge.svg)](https://github.com/jrfranks/TDAmeritrade/actions/workflows/ci.yml)
+
 A complete, self-contained Elixir implementation of the historical TD Ameritrade (now Schwab) REST and Streaming APIs.
 
 This library preserves the full historical API surface as high-quality, maintainable Elixir code long after the original service was decommissioned. It is designed as a **fully runnable code demonstration and reference implementation**, proving correctness through an extensive automated test suite using [Bypass](https://github.com/PSPDFKit-labs/bypass) for hermetic HTTP mocking. No live credentials or network access are required.
@@ -51,6 +53,8 @@ TDAmeritrade.Stream.Offline.push_frame(some_recorded_frame)
 mix deps.get
 mix test
 ```
+
+CI runs the same hermetic suite (plus `mix format --check-formatted` and `mix compile --warnings-as-errors`) on Elixir 1.14/OTP 25 and Elixir 1.17/OTP 27.
 
 What `mix test` does:
 - Executes the full contract test suite across all logical domains (Market Data, Accounts & Orders, Watchlists, Saved Orders, Preferences, Streaming).

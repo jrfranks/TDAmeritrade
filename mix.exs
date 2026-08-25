@@ -36,8 +36,15 @@ defmodule Tdameritrade.MixProject do
         ]
       ],
       # Make `mix test` the single command that validates the entire library
-      aliases: aliases()
+      aliases: aliases(),
+      preferred_cli_env: [
+        "test.ci": :test
+      ]
     ]
+  end
+
+  def cli do
+    [preferred_envs: ["test.ci": :test]]
   end
 
   # Run "mix help compile.app" to learn about applications.

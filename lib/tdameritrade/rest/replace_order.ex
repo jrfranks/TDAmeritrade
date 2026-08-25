@@ -75,7 +75,8 @@ defmodule TDAmeritrade.Rest.ReplaceOrder do
       def replace_order(account_id, order_id, replacement_order \\ nil)
 
       def replace_order(_account_id, _order_id, nil) do
-        {:error, Error.new_client_error(:invalid_replacement_body, "replacement body cannot be nil")}
+        {:error,
+         Error.new_client_error(:invalid_replacement_body, "replacement body cannot be nil")}
       end
 
       def replace_order(account_id, order_id, replacement_order)

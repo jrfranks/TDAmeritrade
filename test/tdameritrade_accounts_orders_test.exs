@@ -9,10 +9,13 @@
 defmodule TDAmeritrade.AccountsOrdersTest do
   use ExUnit.Case, async: true
 
-  @dialyzer {:nowarn_function, [
-    {:"test Accounts & Orders - Value Extremes & Negative Cases GetTransactions with nil account id", 1},
-    {:"test Accounts & Orders - Value Extremes & Negative Cases ReplaceOrder with nil replacement body", 1}
-  ]}
+  @dialyzer {:nowarn_function,
+             [
+               {:"test Accounts & Orders - Value Extremes & Negative Cases GetTransactions with nil account id",
+                1},
+               {:"test Accounts & Orders - Value Extremes & Negative Cases ReplaceOrder with nil replacement body",
+                1}
+             ]}
 
   alias TDAmeritrade.TestSupport.TdBypass
   alias Bypass
@@ -76,7 +79,7 @@ defmodule TDAmeritrade.AccountsOrdersTest do
                )
 
       assert is_list(data)
-      if length(data) > 0, do: assert is_map(hd(data))
+      if length(data) > 0, do: assert(is_map(hd(data)))
     end
 
     test "surfaces 404 for unknown account" do
@@ -257,16 +260,29 @@ defmodule TDAmeritrade.AccountsOrdersTest do
                TDAmeritrade.Rest.PlaceOrder.place_order(client, "12345", %{})
     end
 
-    @dialyzer {:nowarn_function, {:"test Accounts & Orders - Value Extremes & Negative Cases GetTransactions with nil account id", 1}}
+    @dialyzer {:nowarn_function,
+               {:"test Accounts & Orders - Value Extremes & Negative Cases GetTransactions with nil account id",
+                1}}
     test "GetTransactions with nil account id" do
       client = TDAmeritrade.Client.new(access_token: "demo")
-      assert {:error, _} = apply(TDAmeritrade.Rest.GetTransactions, :get_transactions, [client, nil])
+
+      assert {:error, _} =
+               apply(TDAmeritrade.Rest.GetTransactions, :get_transactions, [client, nil])
     end
 
-    @dialyzer {:nowarn_function, {:"test Accounts & Orders - Value Extremes & Negative Cases ReplaceOrder with nil replacement body", 1}}
+    @dialyzer {:nowarn_function,
+               {:"test Accounts & Orders - Value Extremes & Negative Cases ReplaceOrder with nil replacement body",
+                1}}
     test "ReplaceOrder with nil replacement body" do
       client = TDAmeritrade.Client.new(access_token: "demo")
-      assert {:error, _} = apply(TDAmeritrade.Rest.ReplaceOrder, :replace_order, [client, "12345", "123456789", nil])
+
+      assert {:error, _} =
+               apply(TDAmeritrade.Rest.ReplaceOrder, :replace_order, [
+                 client,
+                 "12345",
+                 "123456789",
+                 nil
+               ])
     end
   end
 

@@ -87,6 +87,7 @@ defmodule TDAmeritrade.QuietFormatter do
     case test.state do
       {:failed, [first_failure | _]} ->
         print_assertion_or_reason(first_failure)
+
       _ ->
         IO.puts("    (unexpected failure state)")
     end
