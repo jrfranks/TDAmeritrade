@@ -13,7 +13,7 @@ defmodule Tdameritrade.MixProject do
     [
       app: :tdameritrade,
       version: "0.2.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.15",
       description:
         "Complete Elixir implementation of the historical TD Ameritrade REST and Streaming APIs.",
       package: package(),
