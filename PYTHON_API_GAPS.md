@@ -1,3 +1,8 @@
+<!--
+Copyright (c) 2022-2026 SvelteSoft Inc.
+Licensed under the MIT License. See LICENSE for the full text.
+-->
+
 # Python TD Ameritrade API vs Elixir Implementation – Gap Analysis
 
 **Date**: 2026

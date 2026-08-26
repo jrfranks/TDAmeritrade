@@ -1,3 +1,8 @@
+<!--
+Copyright (c) 2022-2026 SvelteSoft Inc.
+Licensed under the MIT License. See LICENSE for the full text.
+-->
+
 # TDAmeritrade Elixir Client — Design Document
 
 **Version**: 0.2.0 (current as of 2026)  

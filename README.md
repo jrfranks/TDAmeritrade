@@ -1,3 +1,8 @@
+<!--
+Copyright (c) 2022-2026 SvelteSoft Inc.
+Licensed under the MIT License. See LICENSE for the full text.
+-->
+
 # TDAmeritrade Elixir Client
 
 [![CI](https://github.com/jrfranks/TDAmeritrade/actions/workflows/ci.yml/badge.svg)](https://github.com/jrfranks/TDAmeritrade/actions/workflows/ci.yml)
