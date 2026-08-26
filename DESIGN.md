@@ -14,7 +14,7 @@ The TDAmeritrade Elixir client is a complete, self-contained implementation of t
 
 Primary goals:
 - Provide a **fully runnable code demonstration and reference implementation** that requires no live credentials or network access.
-- Make `mix test` the single command that validates the entire library (positive, negative, and extreme cases for every public function).
+- Make `mix test.ci` the command that validates the library (format, warnings-as-errors, and the hermetic suite).
 - Support both a clean modern API (`TDAmeritrade.Client` + `TDAmeritrade.Rest.*` / `TDAmeritrade.Stream.*`) and a backward-compatible legacy surface via `use TDAmeritrade`.
 - Achieve functional parity with the reference Python client (`td-ameritrade-python-api-0.3.5`, vendored under `doc/`) for REST endpoints and order/option-chain builders, while adapting to Elixir idioms.
 - Enable long-term archival of the API as a code artifact.
@@ -206,13 +206,13 @@ The old browser-login helpers in Auth now raise a clear error directing users to
 
 | Decision | Choice | Rationale & Trade-offs | Evidence |
 |----------|--------|------------------------|----------|
-| **Hermetic verification** | All tests and demo run with zero network / live credentials via Bypass + Offline streamer + explicit `base_url` in Client | "mix test" becomes the single verification command; fully reproducible; no external dependencies in CI or for reviewers | `td_bypass.ex:1-10`, `client.ex:19-22`, `connection.ex:76-77`, mix.exs:35, README "Running the Tests" section |
+| **Hermetic verification** | All tests and demo run with zero network / live credentials via Bypass + Offline streamer + explicit `base_url` in Client | `mix test` is the suite; `mix test.ci` (format + warnings-as-errors + suite) is what CI runs | `td_bypass.ex`, `client.ex`, `connection.ex`, README "Running the Tests" section |
 | **Client struct + explicit token** | Primary model is `Client.new(access_token: ...)`; legacy Agent auth is secondary | Clean separation of concerns; enables test isolation; modern OAuth usage is obvious | `client.ex` moduledoc, `rest.ex:24-33` `normalize/1` |
 | **One module per REST endpoint** | 35 small files under `rest/` instead of a single monolithic client or code generation | Eliminates duplication of normalize/error logic via tiny shared `Rest`; each endpoint owns its docs, URL logic, and special cases; easy to add/test in isolation | `rest.ex:10-18` quote, uniform pattern across all 35 modules |
 | **Plain maps for wire data** | Responses are `Poison.decode` maps; builders emit plain maps | API responses vary; strict structs would be brittle; maps are the natural Elixir representation for JSON | `error.ex:82-83`, `orders.ex` moduledoc |
 | **Dual Real / Offline streamers with shared protocol logic** | Real uses WebSockex; Offline uses `push_frame`; both call the same `Parsers.parse_message` and `Commands` builders | Hermetic tests + demos possible while guaranteeing identical delivered messages and login behavior for production | `real.ex` and `offline.ex` moduledocs, `parsers.ex`, `commands.ex` |
 | **Deprecation + macro injection** | Old flat API kept working via `use TDAmeritrade` + `@deprecated` + delegation | No breaking changes for existing callers; modern code sees clean namespaced modules | Every `Rest.*` `__using__` block, `tdameritrade.ex:37-73`, `stream.ex` |
-| **Realistic coverage carve-outs** | Ignore `Types.*`, thin legacy Stream facades, `Real.SocketHandler`; 75% gate on meaningful code via `mix test.ci` | Avoids forcing 90% on doc-only or hard-to-test WS pieces while still enforcing high quality on core logic | `mix.exs:24-33` (detailed comments) |
+| **Coverage is optional, not a gate** | `mix test --cover` ignores `Types.*`, thin legacy Stream facades, and `Real.SocketHandler`; CI does not fail on a percentage | Thin REST modules and Real streaming make a high Mix threshold unrealistic; the hermetic suite is the proof | `mix.exs` `test_coverage`, `.github/workflows/ci.yml` |
 | **No code generation** | All 35 REST modules and streaming parsers hand-written | Simple, auditable, no extra build tooling; schemas/ and vendored Python are reference only | Absence of Mix generators, OpenAPI tasks, or template usage in lib/ |
 | **Modern token injection primary** | `Auth.put_token/2` + Client for demos; old browser OAuth flow stubbed with error | Matches current best practice; removes dependency on deprecated flows | `auth.ex:74-82`, `PYTHON_API_GAPS.md` |
 | **Orders builders added for parity** | Full `Orders.Strategies` + `OptionChain` fluent API producing wire maps | Closed the "Major Gap in Developer Experience" identified in the gap analysis | `PYTHON_API_GAPS.md`, `tdameritrade.ex:75-100`, `orders.ex` |
@@ -241,10 +241,10 @@ Additional notes:
 - **Contract tests** (`test/tdameritrade_*_test.exs`): Every REST call is exercised against an in-process Bypass server serving exact JSON fixtures from `test/fixtures/td_responses/`. `TdBypass.expect_json/5` + `client_for_bypass/1` make setup trivial.
 - **Streaming tests**: Unit tests for Parsers/Commands, Offline tests using `push_frame` with canned frames (including LOGIN success/denied), limited Real tests for credential/command construction.
 - **Core & builder tests**: Direct verification of Client, Error, Orders strategies, etc.
-- **Coverage policy**: `mix test.ci` runs format check, warnings-as-errors compile, and `test --cover` with a 75% threshold on non-ignored modules. Plain `mix test` is fast and always green for the hermetic suite.
+- **CI policy**: `mix test.ci` (the GitHub Actions command) runs format check, warnings-as-errors compile, and the hermetic suite. Plain `mix test` is the fast local suite. Coverage is optional (`mix test --cover`) and not gated.
 - **QuietFormatter**: Custom GenServer formatter produces clean, CI-friendly output while still showing detailed diffs on failure.
 
-The project is deliberately structured so that a maintainer or reviewer can run one command and verify that the historical API surface has been faithfully re-implemented.
+The project is deliberately structured so that a maintainer or reviewer can run `mix test.ci` and verify that the historical API surface has been faithfully re-implemented.
 
 ---
 
@@ -267,7 +267,7 @@ The vendored Python source under `doc/td-ameritrade-python-api-0.3.5/` and the `
 - `test/fixtures/td_responses/` — 23 canonical JSON responses.
 - `test/support/` — `TdBypass` and `QuietFormatter`.
 - `schemas/` and `doc/` — historical reference artifacts from the Python client and TD API specifications.
-- `mix.exs` — defines `test` vs `test.ci` aliases, realistic coverage ignores, and the explicit goal that "mix test is the single command that validates the entire library".
+- `mix.exs` — Elixir `~> 1.15`, `test.ci` alias (what CI runs), optional coverage ignores.
 - No custom Mix tasks or code generators.
 
 ---

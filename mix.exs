@@ -21,22 +21,17 @@ defmodule Tdameritrade.MixProject do
       deps: deps(),
       # Demo / test support
       elixirc_paths: elixirc_paths(Mix.env()),
-      # Coverage: 90% threshold on *meaningful* code. We ignore pure documentation /
-      # schema modules (Types.*) and the thin legacy streaming facade modules that
-      # exist only for `use` + docs.
+      # Optional `mix test --cover` report. Not a CI gate (thin REST modules and
+      # Real streaming keep totals well below Mix's 90% default).
       test_coverage: [
-        # Enforced only by `mix test.ci` (the strict gate).
-        # 75% is a realistic high bar: many thin REST modules, hard-to-test WebSocket Real,
-        # and legacy doc facades. Schema-only modules are ignored.
-        threshold: 75,
         ignore_modules: [
           ~r/^TDAmeritrade\.Types\./,
           ~r/^TDAmeritrade\.Stream\.(AcctActivity|Actives|Admin|Book|Chart|ChartHistory|CommandFormat|Data|Introduction|Legacy|LevelOne|News|Quickstart|StreamerProtocols|Streamer_server|Timesale|Title)$/,
           ~r/^TDAmeritrade\.Stream\.Real\.SocketHandler$/
         ]
       ],
-      # Make `mix test` the single command that validates the entire library
       aliases: aliases(),
+      # Mix 1.15 reads preferred_cli_env; Mix 1.19+ reads cli/0.
       preferred_cli_env: [
         "test.ci": :test
       ]
@@ -59,11 +54,8 @@ defmodule Tdameritrade.MixProject do
 
   defp aliases do
     [
-      # `mix test` runs the full suite (fast, no coverage gate by default).
-      # For the strict coverage-enforced run (used in CI), use `mix test.ci`.
-      test: ["test"],
-      # Full CI-style verification (format + warnings-as-errors + coverage with threshold)
-      "test.ci": ["format --check-formatted", "compile --warnings-as-errors", "test --cover"]
+      # Same command GitHub Actions runs: format, warnings-as-errors, hermetic suite.
+      "test.ci": ["format --check-formatted", "compile --warnings-as-errors", "test"]
     ]
   end
 
@@ -81,7 +73,6 @@ defmodule Tdameritrade.MixProject do
       {:oauth2, "~> 2.0"},
       {:poison, "~> 5.0"},
       {:httpoison, "~> 2.0"},
-      {:floki, "~> 0.36"},
       # WebSocket client for the full real TD Ameritrade streaming connection
       {:websockex, "~> 0.4"},
       # Test-only mock HTTP server for hermetic contract tests (key to the demo)

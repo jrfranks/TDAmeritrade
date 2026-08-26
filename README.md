@@ -45,24 +45,18 @@ TDAmeritrade.Stream.Offline.push_frame(some_recorded_frame)
 #   elixir -S mix run demo.exs
 ```
 
-## Running the Tests — The Definitive Verification Command
+## Running the Tests
 
-**`mix test` is the single command that proves the entire library is correctly implemented.**
+**`mix test.ci` is the command that verifies the library.** GitHub Actions runs the same alias on Elixir 1.15/OTP 26 and Elixir 1.17/OTP 27.
 
 ```bash
 mix deps.get
-mix test
+mix test.ci
 ```
 
-CI runs the same hermetic suite (plus `mix format --check-formatted` and `mix compile --warnings-as-errors`) on Elixir 1.14/OTP 25 and Elixir 1.17/OTP 27.
+That runs format check, warnings-as-errors compile, and the hermetic suite. No live credentials or network access are required.
 
-What `mix test` does:
-- Executes the full contract test suite across all logical domains (Market Data, Accounts & Orders, Watchlists, Saved Orders, Preferences, Streaming).
-- Runs positive, negative, and value-extreme test cases for **every public function**.
-- Generates a coverage report.
-- Exercises both the modern `Rest.*` / `Stream.*` APIs and the legacy `use TDAmeritrade` surface.
-
-You will see a clean, complete green run with zero external dependencies. This is the final, authoritative way to verify that the historical TD Ameritrade API has been faithfully and completely re-implemented in Elixir.
+`mix test` runs the suite only (no format or compiler-warning gate). It covers Market Data, Accounts & Orders, Watchlists, Saved Orders, Preferences, and Streaming — positive, negative, and value-extreme cases for every public function, including both the modern `Rest.*` / `Stream.*` APIs and the legacy `use TDAmeritrade` surface.
 
 ## Legacy API (Deprecated)
 
@@ -75,10 +69,6 @@ Prefer the explicit `TDAmeritrade.Rest.*` and `TDAmeritrade.Stream.*` modules fo
 - `lib/tdameritrade/rest/` — All 35 REST endpoint implementations
 - `lib/tdameritrade/stream/real.ex` + `offline.ex` — Production and hermetic streaming
 - `test/` — Clean, logical test groups exercising the full API surface
-
-## Maintenance Note
-
-The project is intentionally structured so that `mix test` is the only command a maintainer or reviewer ever needs to run to verify the implementation.
 
 ## License
 
